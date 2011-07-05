@@ -1,0 +1,9 @@
+# Compiled source #
+###################
+*.pyc
+*.mo
+
+# OS generated files #
+######################
+*~
+*.swp

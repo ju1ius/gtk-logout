@@ -1,0 +1,20 @@
+msgid "<big><b>What Do you Want to do?</b></big>"
+msgstr "<big><b>¿Qué desea hacer?</b></big>"
+
+msgid "Logout"
+msgstr "Abandonar sesión"
+
+msgid "Switch User"
+msgstr "Cambiar de usuario"
+
+msgid "Suspend"
+msgstr "Suspender"
+
+msgid "Hibernate"
+msgstr "Hibernar"
+
+msgid "Reboot"
+msgstr "Reiniciar"
+
+msgid "Shutdown"
+msgstr "Apagar"

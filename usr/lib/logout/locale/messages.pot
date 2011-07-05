@@ -1,0 +1,23 @@
+msgid "<big><b>What Do you Want to do?</b></big>"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Switch User"
+msgstr ""
+
+msgid "Suspend"
+msgstr ""
+
+msgid "Hibernate"
+msgstr ""
+
+msgid "Reboot"
+msgstr ""
+
+msgid "Shutdown"
+msgstr ""
+
+msgid "Lock"
+msgstr ""

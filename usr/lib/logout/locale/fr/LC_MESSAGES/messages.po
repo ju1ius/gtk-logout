@@ -1,0 +1,23 @@
+msgid "<big><b>What Do you Want to do?</b></big>"
+msgstr "<big><b>Que voulez-vous faire ?</b></big>"
+
+msgid "Logout"
+msgstr "Fermer la session"
+
+msgid "Lock"
+msgstr "Vérouiller l'écran"
+
+msgid "Switch User"
+msgstr "Changer d'utilisateur"
+
+msgid "Suspend"
+msgstr "Mettre en veille"
+
+msgid "Hibernate"
+msgstr "Mettre en hibernation"
+
+msgid "Reboot"
+msgstr "Redémarrer"
+
+msgid "Shutdown"
+msgstr "Eteindre"

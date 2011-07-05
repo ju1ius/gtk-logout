@@ -1,0 +1,20 @@
+msgid "<big><b>What Do you Want to do?</b></big>"
+msgstr "<big><b>Що ви бажаєте?</b></big>"
+
+msgid "Logout"
+msgstr "Завершити сеанс"
+
+msgid "Switch User"
+msgstr "Змінити користувача"
+
+msgid "Suspend"
+msgstr "Призупинити"
+
+msgid "Hibernate"
+msgstr "Перевести у режим сну"
+
+msgid "Reboot"
+msgstr "Перезапустити"
+
+msgid "Shutdown"
+msgstr "Вимкнути"

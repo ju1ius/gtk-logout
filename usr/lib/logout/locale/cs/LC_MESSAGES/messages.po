@@ -1,0 +1,20 @@
+msgid "<big><b>What Do you Want to do?</b></big>"
+msgstr "Co chcete udělat"
+
+msgid "Logout"
+msgstr "Odhlásit se"
+
+msgid "Switch User"
+msgstr "Přepnout uživatele"
+
+msgid "Suspend"
+msgstr "Přerušit"
+
+msgid "Hibernate"
+msgstr "Uspat"
+
+msgid "Reboot"
+msgstr "Restartovat"
+
+msgid "Shutdown"
+msgstr "Vypnout"

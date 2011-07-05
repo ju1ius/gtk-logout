@@ -1,0 +1,20 @@
+msgid "<big><b>What Do you Want to do?</b></big>"
+msgstr "<big><b>終了</b></big>"
+
+msgid "Logout"
+msgstr "ログアウト"
+
+msgid "Switch User"
+msgstr "ユーザーの切り替え"
+
+msgid "Suspend"
+msgstr "サスペンド"
+
+msgid "Hibernate"
+msgstr "ハイバーネート"
+
+msgid "Reboot"
+msgstr "再起動"
+
+msgid "Shutdown"
+msgstr "電源を切る"

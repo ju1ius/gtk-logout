@@ -1,0 +1,20 @@
+msgid "<big><b>What Do you Want to do?</b></big>"
+msgstr "<big><b>Ne yapmak istersiniz?</b></big>"
+
+msgid "Logout"
+msgstr "Oturumu Kapat"
+
+msgid "Switch User"
+msgstr "Kullanıcı Değiştir"
+
+msgid "Suspend"
+msgstr "Beklemeye Al"
+
+msgid "Hibernate"
+msgstr "Uyku Modu"
+
+msgid "Reboot"
+msgstr "Yeniden Başlat"
+
+msgid "Shutdown"
+msgstr "Kapat"
