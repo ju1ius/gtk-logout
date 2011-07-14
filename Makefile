@@ -5,6 +5,7 @@ export prefix=/usr/local
 export sysconfdir=/etc
 
 install:
+	./mkmo.sh
 	install -d ${prefix}/lib/gtk-logout
 	install -m 0755 usr/lib/gtk-logout/* ${prefix}/lib/gtk-logout
 	install -d ${sysconfdir}/gtk-logout
