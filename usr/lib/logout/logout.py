@@ -1,15 +1,16 @@
 #! /usr/bin/python
 
-import os, sys, string, ConfigParser, StringIO
+import os, sys, stat, string, StringIO
+import gettext
+import ConfigParser, logging, logging.handlers
+import subprocess, shlex
+from subprocess import PIPE
+
 import pygtk
 pygtk.require('2.0')
 import gtk
 
-try:
-    import gettext
-except Exception, detail:
-	print detail
-	sys.exit(1)
+
 
 try:
     import cairo
@@ -30,22 +31,22 @@ class LogoutMenu(gtk.Window):
     actions = {
         'shutdown': {
             'command': 'gksu halt',
-            'icon': 'gnome-session-halt',
+            'icon': 'system-shutdown',
             'text': 'Shutdown'
         },
         'restart': {
             'command': 'gksu reboot',
-            'icon': 'gnome-session-reboot',
+            'icon': 'system-restart',
             'text': 'Reboot'
         },
         'suspend': {
-            'command': "pmi action suspend",
-            'icon': 'gnome-session-suspend',
+            'command': "pm-suspend",
+            'icon': 'system-suspend',
             'text': 'Suspend'
         },
         'hibernate': {
-            'command': "pmi action hibernate",
-            'icon': 'gnome-session-hibernate',
+            'command': "pm-hibernate",
+            'icon': 'system-hibernate',
             'text': 'Hibernate'
         },
         'lock': {
@@ -55,24 +56,26 @@ class LogoutMenu(gtk.Window):
         },
         'switch': {
             'command': "gdm-control --switch-user",
-            'icon':'system-log-out',
+            'icon':'system-logout',
             'text': 'Switch User'
         },
         'logout': {
             'command': "fluxbox-remote exit",
-            'icon':'gnome-session-logout',
+            'icon':'system-logout',
             'text': 'Logout'
         },
         'cancel': {
             'command': "exit 0",
-            'icon':'gtk-cancel',
+            'icon':'application-exit',
             'text': 'Cancel'
         }
     }
 
 
-    def __init__(self, config_paths):
+    def __init__(self):
         super(LogoutMenu, self).__init__(gtk.WINDOW_TOPLEVEL)
+        # Logging
+        self.init_logging()
         # Initialize i18n
         gettext.install(
             "messages",
@@ -80,9 +83,9 @@ class LogoutMenu(gtk.Window):
             unicode=1
         )
         # Load configuration file
-        self.load_config(config_paths)
-        # Bootstrap UI
-        self.init_ui()
+        self.load_config()
+        # Bootstrap GUI
+        self.init_gui()
         self.connect("destroy", self.quit)
 
     #--------------#
@@ -94,15 +97,38 @@ class LogoutMenu(gtk.Window):
         return False
     
     def action(self, action=None):
-        if action in self.dbus_actions and self.config['usedbus']:
+        if action == 'cancel':
+            self.quit()
+            return
+        elif action in self.dbus_actions and self.config['usedbus']:
             method = getattr(self.dbus, action)
-            method()
+            try:
+                r = method()
+            except Exception, e:
+                r = False
+                self.error_dialog(str(e))
         else:
-            self.exec_cmd(self.actions[action]['command'])
-        self.quit()
+            r = self.exec_cmd(self.actions[action]['command'])
+        if r:
+            self.quit()
 
     def exec_cmd(self, cmdline):
-        os.system(cmdline)
+        try:
+            args = shlex.split(cmdline)
+            p = subprocess.Popen(args, stdout=PIPE, stderr=PIPE)
+            r = p.communicate()
+            if r[1]:
+                error = 'Command "%s" returned:\n%s' % (cmdline, r[1])
+                self.error_dialog(error)
+                return False
+            else:
+                self.logger.info('Command "%s" returned:\n%s', cmdline, r[0])
+                return True
+        except OSError:
+            error = 'Command "%s" was not found' % cmdline
+            self.error_dialog(error)
+            return False
+            
 
     def quit(self, widget=None, data=None):
         gtk.main_quit()
@@ -115,9 +141,9 @@ class LogoutMenu(gtk.Window):
     # CONFIGURATION #
     #---------------#
 
-    def load_config(self, config_paths):
-        """ Load the configuration file and parse entries, when encountering a issue
-            change safe defaults """
+    def load_config(self):
+        """ Load and parse the configuration file,
+            falling back to safe defaults when encountering a issue."""
         self.config = {}
         
         # ----- DEFAULTS
@@ -131,49 +157,41 @@ logo: distributor-logo.png
 usedbus: yes
 effects: yes
 opacity: 50
-buttons: logout,restart,shutdown
-
-[Icons]
-lock: system-lock-screen
-logout: system-logout
-switch: system-logout
-suspend: system-suspend
-hibernate: system-hibernate
-restart: system-restart
-shutdown: system-shutdown
-cancel: gtk-cancel
+buttons: suspend,logout,restart,shutdown
 """)
-
         config_parser = ConfigParser.RawConfigParser()
         config_parser.readfp(defaults)
-        config_parser.read(config_paths)
+        config_parser.read([
+            '/etc/gtk-logout/logout.conf',
+            os.path.expanduser('~/.config/gtk-logout/logout.conf')
+        ])
         defaults.close()
-
-        # ----- LOGO
-        try:
-            self.config['logo'] = config_parser.getboolean("Settings", "logo")
-        except ValueError:
-            self.config['logo'] = config_parser.get("Settings", "logo")
-            if not os.path.isabs(self.config['logo']):
-                self.config['logo'] = os.path.abspath(os.path.join(
-                    os.path.dirname(__file__), self.config['logo']
-                ))
 
         # ----- DBUS
 
         self.config['usedbus'] = config_parser.getboolean("Settings","usedbus")
         # Instanciate the DBusController
         if self.config['usedbus']:
-            from dbushandler import DbusController
-            self.dbus = DbusController()
+            try:
+                import dbus
+                from dbushandler import DbusController
+                self.dbus = DbusController()
+            except:
+                self.config['usedbus'] = False
+                cmds = ""
+                for a in self.dbus_actions:
+                    cmds += "%s: %s\n" % (a, self.actions[a]['command'])
+                self.logger.warning(
+                    "Could not import python-dbus. Falling back to:\n%s" % cmds
+                )
 
-        # ----- EFFECTS
+        # ----- ACTIONS
 
-        self.config['effects'] = config_parser.getboolean("Settings","effects")
-        opacity = config_parser.getfloat("Settings","opacity")
-        if opacity > 100 or opacity <= 0:
-            opacity = 75
-        self.config['opacity'] = opacity
+        # Parse in commands section of the configuration file. Check for valid keys and set the attribs on self
+        if config_parser.has_section('Commands'):
+            for key in config_parser.items("Commands"):
+                if key[0] in valid_actions:
+                    if key[1]: self.actions[key[0]]['command'] = key[1]
 
         # ----- BUTTONS
 
@@ -188,13 +206,24 @@ cancel: gtk-cancel
         if not 'cancel' in buttons: buttons.append('cancel')
         if len(buttons) > 1: self.config['buttons'] = buttons
 
-        # ----- ACTIONS
 
-        # Parse in commands section of the configuration file. Check for valid keys and set the attribs on self
-        if config_parser.has_section('Commands'):
-            for key in config_parser.items("Commands"):
-                if key[0] in valid_actions:
-                    if key[1]: self.actions[key[0]]['command'] = key[1]
+        # ----- LOGO
+        try:
+            self.config['logo'] = config_parser.getboolean("Settings", "logo")
+        except ValueError:
+            self.config['logo'] = config_parser.get("Settings", "logo")
+            if not os.path.isabs(self.config['logo']):
+                self.config['logo'] = os.path.abspath(os.path.join(
+                    os.path.dirname(__file__), self.config['logo']
+                ))
+
+        # ----- EFFECTS
+
+        self.config['effects'] = config_parser.getboolean("Settings","effects")
+        opacity = config_parser.getfloat("Settings","opacity")
+        if opacity > 100 or opacity <= 0:
+            opacity = 75
+        self.config['opacity'] = opacity
 
         # ----- ICONS
 
@@ -203,13 +232,14 @@ cancel: gtk-cancel
                 if key[0] in valid_actions:
                     if key[1]: self.actions[key[0]]['icon'] = key[1]
 
-    #----#
-    # UI #
-    #----#
+    #-----#
+    # GUI #
+    #-----#
     
-    def init_ui(self):
+    def init_gui(self):
+        """Sets up the gui components"""
         self.set_urgency_hint(True)
-        self.set_skip_pager_hint(True)
+        #self.set_skip_pager_hint(True)
         self.set_skip_taskbar_hint(True)
 
         self.set_decorated(False)
@@ -231,7 +261,9 @@ cancel: gtk-cancel
             if not self.supports_alpha and not HAS_PIL:
                 # No RGBA, no PIL, no effects
                 self.config['effects'] = False
-        
+                self.logger.warning(
+                    "No support for transparency. Please install python-imaging OR python-cairo with a compositing manager"
+                )       
 
         # Create the button box
         buttonbox = gtk.HButtonBox()
@@ -280,7 +312,7 @@ cancel: gtk-cancel
 
 
     def on_expose(self, widget, event, opacity):
-        print "Exposed"
+        """Draws a semi-transparent background"""
         cr = widget.window.cairo_create()
         cr.set_operator(cairo.OPERATOR_CLEAR)
         cr.rectangle(0.0, 0.0, *widget.get_size())
@@ -307,13 +339,16 @@ cancel: gtk-cancel
         box = gtk.HBox()
 
         img = gtk.Image()
-        img.set_from_icon_name(self.actions[name]['icon'], gtk.ICON_SIZE_DND)
+        icon = self.actions[name]['icon']
+        if os.path.isabs(icon):
+            img.set_from_file(icon)
+        else:
+            img.set_from_icon_name(icon, gtk.ICON_SIZE_DIALOG)
 
         lbl = gtk.Label()
         lbl.set_text(str(_(self.actions[name]['text'])))
 
         button = gtk.Button()
-        #button.connect("clicked", self.on_button_clicked, name)
         button.connect("button-press-event", self.on_button_pressed, name)
         button.set_border_width(5)
 
@@ -327,7 +362,11 @@ cancel: gtk-cancel
         box = gtk.VBox()
 
         image = gtk.Image()
-        image.set_from_icon_name(self.actions[name]['icon'], gtk.ICON_SIZE_DIALOG)
+        icon = self.actions[name]['icon']
+        if os.path.isabs(icon):
+            image.set_from_file(icon)
+        else:
+            image.set_from_icon_name(icon, gtk.ICON_SIZE_DIALOG)
         box.pack_start(image, False, False, 0)
 
         label = gtk.Label()
@@ -347,17 +386,43 @@ cancel: gtk-cancel
         widget.pack_start(e, False, False, 0)
 
 
+    def error_dialog(self, message):
+        self.logger.error(message)
+        error_dlg = gtk.MessageDialog(
+            type=gtk.MESSAGE_ERROR, flags=gtk.DIALOG_MODAL|gtk.DIALOG_DESTROY_WITH_PARENT,
+            message_format="Error:", buttons=gtk.BUTTONS_OK
+        )
+        error_dlg.format_secondary_text(message)
+        error_dlg.run()
+        error_dlg.destroy()
+
+    #---------#
+    # LOGGING #
+    #---------#
+
+    def init_logging(self):
+        """Sets up logging along with requires paths"""
+        wdir = os.path.expanduser('~/.config/gtk-logout')
+        logfile = os.path.expanduser(os.path.join(wdir, 'logout.log'))
+
+        if not os.path.isdir(wdir):
+            os.makedirs(wdir)
+        if not os.path.isfile(logfile):
+            os.mknod(logfile, 0644|stat.S_IFREG)
+
+        self.logger = logging.getLogger('gtk-logout')
+        self.logger.setLevel(logging.DEBUG)
+        handler = logging.handlers.RotatingFileHandler(
+            logfile, maxBytes=500*1024, backupCount=2
+        )
+        handler.setFormatter(logging.Formatter("[%(asctime)s] %(levelname)s: %(message)s'"))
+        self.logger.addHandler(handler)
+
+
 
 #######################################################
 # MAIN
 #######################################################
 if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        config_paths = os.path.abspath(os.path.expanduser(sys.argv[1]))
-    else:
-        config_paths = [
-            '/etc/logout/logout.conf',
-            os.path.expanduser('~/.config/logout/logout.conf')
-        ]
-    logout_menu = LogoutMenu(config_paths)
+    logout_menu = LogoutMenu()
     logout_menu.run()

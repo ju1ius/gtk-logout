@@ -23,19 +23,19 @@ class DbusController(object):
 
     def restart(self):
         """Restart the system via ConsoleKit"""
-        self.consolekit.restart()
+        return self.consolekit.restart()
 
     def shutdown(self):
         """Shutdown the system via ConsoleKit"""
-        self.consolekit.shutdown()
+        return self.consolekit.shutdown()
 
     def suspend(self):
         """Suspend the system via UPower"""
-        self.upower.suspend()
+        return self.upower.suspend()
 
     def hibernate(self):
         """Hibernate the system via UPower"""
-        self.upower.hibernate()
+        return self.upower.hibernate()
 
     def check_ability(self, action):
         """Check if Service can complete action type requests, for example, suspend, hiberate, and safesuspend"""
@@ -234,6 +234,7 @@ class ConsoleKit(DBusService):
             if not self.policykit.get_permissions("org.freedesktop.consolekit.system.restart"):
                 return False
         self.interface.Restart()
+        return True
 
     def shutdown(self):
         """Shutdown the system via ConsoleKit"""
@@ -244,6 +245,7 @@ class ConsoleKit(DBusService):
             if not self.policykit.get_permissions("org.freedesktop.consolekit.system.stop"):
                 return False
         self.interface.Stop()
+        return True
 
     def count_sessions(self):
         """ Using DBus and ConsoleKit, get the number of sessions. This is used by PolicyKit to dictate the
@@ -280,17 +282,19 @@ class UPower(DBusService):
                 ),
                 "org.freedesktop.UPower"
             )
-        return ConsoleKit._interface
+        return UPower._interface
 
     def suspend(self):
         """Suspend the system via UPower"""
         if not self.policykit.get_permissions("org.freedesktop.upower.suspend"):
             return False
-        self.interface.Suspend(ignore_reply=True)
+        self.interface.Suspend()
+        return True
 
     def hibernate(self):
         """Hibernate the system via UPower"""
         if not self.policykit.get_permissions("org.freedesktop.upower.hibernate"):
             return False
-        self.interface.Hibernate(ignore_reply=True)
+        self.interface.Hibernate()
+        return True
 
