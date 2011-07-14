@@ -1,0 +1,6 @@
+msgid "Cancel"
+msgstr "Vazgeç"
+
+msgid "Lock Screen"
+msgstr "Ekrannı Kilitle"
+

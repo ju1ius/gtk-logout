@@ -1,0 +1,12 @@
+msgid "Hibernate"
+msgstr "Ampatorio"
+
+msgid "Lock Screen"
+msgstr "Gejao ny efijery"
+
+msgid "Restart"
+msgstr "Avereno alefa"
+
+msgid "Suspend"
+msgstr "Ahatoy"
+

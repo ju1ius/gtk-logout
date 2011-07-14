@@ -1,0 +1,12 @@
+msgid "Cancel"
+msgstr "റദ്ദാക്കുക"
+
+msgid "Hibernate"
+msgstr "ശിശിരനിദ്രയിലാക്കുക"
+
+msgid "Lock Screen"
+msgstr "സ്ക്രീന്‍ പൂട്ടുക"
+
+msgid "Suspend"
+msgstr "താല്‍ക്കാലികമായി നിര്‍ത്തുക"
+

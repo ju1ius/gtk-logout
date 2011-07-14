@@ -1,0 +1,15 @@
+msgid "Hibernate"
+msgstr "Hibernate"
+
+msgid "Lock Screen"
+msgstr "Lock Screen"
+
+msgid "Log Out"
+msgstr "Log Out"
+
+msgid "Restart"
+msgstr "Restart"
+
+msgid "Suspend"
+msgstr "Suspend"
+

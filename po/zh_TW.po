@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Lock Screen"
+msgstr "鎖定畫面"
+
+msgid "Log Out"
+msgstr "登出"
+
+msgid "Power Off"
+msgstr "關閉電源"
+
+msgid "Restart"
+msgstr "重新啟動"
+
+msgid "Suspend"
+msgstr "暫停"
+
+msgid "Switch User"
+msgstr "切換使用者"
+

@@ -1,0 +1,24 @@
+msgid "Cancel"
+msgstr "రద్దుచేయి"
+
+msgid "Hibernate"
+msgstr "షుప్తావస్థ"
+
+msgid "Lock Screen"
+msgstr "తెరకు తాళంవేయి"
+
+msgid "Log Out"
+msgstr "నిష్క్రమించు"
+
+msgid "Power Off"
+msgstr "విద్యుత్ ఆపు"
+
+msgid "Restart"
+msgstr "పునఃప్రారంభించు"
+
+msgid "Suspend"
+msgstr "అర్ధాంతరంగానిలిపివేయు"
+
+msgid "Switch User"
+msgstr "వాడుకరిని మార్చు"
+

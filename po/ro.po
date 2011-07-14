@@ -1,0 +1,18 @@
+msgid "Cancel"
+msgstr "Anulează"
+
+msgid "Lock Screen"
+msgstr "Blochează ecranul"
+
+msgid "Log Out"
+msgstr "Ieșire din sesiune"
+
+msgid "Restart"
+msgstr "Repornește"
+
+msgid "Suspend"
+msgstr "Suspendă"
+
+msgid "Switch User"
+msgstr "Comută utilizatorul"
+

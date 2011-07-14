@@ -1,0 +1,12 @@
+msgid "Cancel"
+msgstr "ବାତିଲ କରନ୍ତୁ"
+
+msgid "Hibernate"
+msgstr "ନିଭୃତ ଅବସ୍ଥାକୁ ନିଅନ୍ତୁ"
+
+msgid "Lock Screen"
+msgstr "ପରଦାକୁ ତାଲା ଦେଇ ରଖନ୍ତୁ"
+
+msgid "Suspend"
+msgstr "ସ୍ଥଗିତ କରନ୍ତୁ"
+

@@ -1,0 +1,3 @@
+msgid "Restart"
+msgstr "Ýene Başla"
+

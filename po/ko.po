@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "취소"
+
+msgid "Lock Screen"
+msgstr "화면 잠그기"
+
+msgid "Log Out"
+msgstr "로그아웃"
+
+msgid "Power Off"
+msgstr "컴퓨터 끄기"
+
+msgid "Restart"
+msgstr "다시 시작"
+
+msgid "Suspend"
+msgstr "절전"
+
+msgid "Switch User"
+msgstr "사용자 바꾸기"
+

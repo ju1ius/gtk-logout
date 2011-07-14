@@ -1,0 +1,24 @@
+msgid "Cancel"
+msgstr "Скасаваць"
+
+msgid "Hibernate"
+msgstr "Усыпіць"
+
+msgid "Lock Screen"
+msgstr "Замкнуць экран"
+
+msgid "Log Out"
+msgstr "Скончыць сеанс"
+
+msgid "Power Off"
+msgstr "Выключыць камп'ютар"
+
+msgid "Restart"
+msgstr "Перазапусціць сістэму"
+
+msgid "Suspend"
+msgstr "Прыпыніць"
+
+msgid "Switch User"
+msgstr "Перамяніць карыстальніка"
+

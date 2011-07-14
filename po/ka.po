@@ -1,0 +1,12 @@
+msgid "Cancel"
+msgstr "გაუქმება"
+
+msgid "Hibernate"
+msgstr "ძილის რეჟიმი"
+
+msgid "Lock Screen"
+msgstr "ეკრანის დაბლოკვა"
+
+msgid "Suspend"
+msgstr "შეჩერება"
+

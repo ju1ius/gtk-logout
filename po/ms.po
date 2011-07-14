@@ -1,0 +1,6 @@
+msgid "Lock Screen"
+msgstr "Kunci Skrin"
+
+msgid "Restart"
+msgstr "Ulanghidup"
+

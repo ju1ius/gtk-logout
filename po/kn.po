@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "ರದ್ದು ಮಾಡು"
+
+msgid "Hibernate"
+msgstr "ಹೈಬರ್ನೇಟ್"
+
+msgid "Lock Screen"
+msgstr "ತೆರೆಯನ್ನು ಲಾಕ್ ಮಾಡಿ"
+
+msgid "Log Out"
+msgstr "ನಿರ್ಗಮಿಸಿ"
+
+msgid "Restart"
+msgstr "ಮರಳಿ ಆರಂಭಿಸು"
+
+msgid "Suspend"
+msgstr "ಸ್ಥಗಿತಗೊಳಿಸು"
+
+msgid "Switch User"
+msgstr "ಬಳಕೆದಾರನನ್ನು ಬದಲಿಸು"
+

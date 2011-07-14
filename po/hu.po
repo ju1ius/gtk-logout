@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "Mégse"
+
+msgid "Lock Screen"
+msgstr "Képernyő zárolása"
+
+msgid "Log Out"
+msgstr "Kijelentkezés"
+
+msgid "Power Off"
+msgstr "Kikapcsolás"
+
+msgid "Restart"
+msgstr "Újraindítás"
+
+msgid "Suspend"
+msgstr "Felfüggesztés"
+
+msgid "Switch User"
+msgstr "Felhasználóváltás"
+

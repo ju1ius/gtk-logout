@@ -1,0 +1,6 @@
+msgid "Cancel"
+msgstr "Бекор қилиш"
+
+msgid "Lock Screen"
+msgstr "Экранни қулфлаш"
+

@@ -1,0 +1,6 @@
+msgid "Lock Screen"
+msgstr "Blloko Ekranin"
+
+msgid "Restart"
+msgstr "Rifillo"
+

@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "Otkaži"
+
+msgid "Lock Screen"
+msgstr "Zaključaj ekran"
+
+msgid "Log Out"
+msgstr "Odjavi"
+
+msgid "Power Off"
+msgstr "Isključi"
+
+msgid "Restart"
+msgstr "Ponovo pokreni"
+
+msgid "Suspend"
+msgstr "Obustavi"
+
+msgid "Switch User"
+msgstr "Promeni korisnika"
+

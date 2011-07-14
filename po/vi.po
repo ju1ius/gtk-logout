@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "Thôi"
+
+msgid "Lock Screen"
+msgstr "Khoá màn hình"
+
+msgid "Log Out"
+msgstr "Đăng xuất"
+
+msgid "Power Off"
+msgstr "Tắt máy"
+
+msgid "Restart"
+msgstr "Khởi động lại"
+
+msgid "Suspend"
+msgstr "Ngưng"
+
+msgid "Switch User"
+msgstr "Chuyển người dùng"
+

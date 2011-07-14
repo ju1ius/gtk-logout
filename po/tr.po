@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "İptal"
+
+msgid "Lock Screen"
+msgstr "Ekranı Kilitle"
+
+msgid "Log Out"
+msgstr "Çıkış"
+
+msgid "Power Off"
+msgstr "Kapat"
+
+msgid "Restart"
+msgstr "Yeniden Başlat"
+
+msgid "Suspend"
+msgstr "Beklet"
+
+msgid "Switch User"
+msgstr "Kullanıcı Değiştir"
+

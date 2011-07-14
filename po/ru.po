@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Lock Screen"
+msgstr "Заблокировать экран"
+
+msgid "Log Out"
+msgstr "Выйти из системы"
+
+msgid "Power Off"
+msgstr "Выключить"
+
+msgid "Restart"
+msgstr "Перезапустить"
+
+msgid "Suspend"
+msgstr "Ждущий режим"
+
+msgid "Switch User"
+msgstr "Сменить пользователя"
+

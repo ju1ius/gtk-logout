@@ -1,0 +1,6 @@
+msgid "Cancel"
+msgstr "Nullañ"
+
+msgid "Lock Screen"
+msgstr "Prennañ ar skramm"
+

@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "Zrušit"
+
+msgid "Lock Screen"
+msgstr "Uzamknout obrazovku"
+
+msgid "Log Out"
+msgstr "Odhlásit"
+
+msgid "Power Off"
+msgstr "Vypnout"
+
+msgid "Restart"
+msgstr "Restartovat"
+
+msgid "Suspend"
+msgstr "Uspat do paměti"
+
+msgid "Switch User"
+msgstr "Přepnout uživatele"
+

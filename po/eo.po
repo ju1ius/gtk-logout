@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "Nuligi"
+
+msgid "Lock Screen"
+msgstr "Ŝlosi ekranon"
+
+msgid "Log Out"
+msgstr "Elsaluti"
+
+msgid "Power Off"
+msgstr "Elŝalti"
+
+msgid "Restart"
+msgstr "Restarti"
+
+msgid "Suspend"
+msgstr "Paŭzigi"
+
+msgid "Switch User"
+msgstr "Ŝanĝi uzanton"
+

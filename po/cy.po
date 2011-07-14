@@ -1,0 +1,12 @@
+msgid "Hibernate"
+msgstr "Cysgu"
+
+msgid "Lock Screen"
+msgstr "Cloi'r Sgrin"
+
+msgid "Restart"
+msgstr "Ailgychwyn"
+
+msgid "Suspend"
+msgstr "Seibio"
+

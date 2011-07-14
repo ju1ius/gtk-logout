@@ -1,0 +1,12 @@
+msgid "Hibernate"
+msgstr "Leggja í dvala"
+
+msgid "Lock Screen"
+msgstr "Læsa skjá"
+
+msgid "Restart"
+msgstr "Endurræsa"
+
+msgid "Suspend"
+msgstr "Hvíla"
+

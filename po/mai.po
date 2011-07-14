@@ -1,0 +1,12 @@
+msgid "Cancel"
+msgstr "रद करू"
+
+msgid "Hibernate"
+msgstr "हाइबरनेट करू"
+
+msgid "Lock Screen"
+msgstr "स्क्रीन पर ताला लगाबू"
+
+msgid "Suspend"
+msgstr "सस्पेंड करू"
+

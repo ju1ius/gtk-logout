@@ -1,0 +1,9 @@
+msgid "Lock Screen"
+msgstr "_Notlela Sekirini"
+
+msgid "Log Out"
+msgstr "E tšwa"
+
+msgid "Restart"
+msgstr "Thoma ka leswa"
+

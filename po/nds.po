@@ -1,0 +1,6 @@
+msgid "Cancel"
+msgstr "Avbreken"
+
+msgid "Lock Screen"
+msgstr "Avslutbillschirm"
+

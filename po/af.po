@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "Kanselleer"
+
+msgid "Lock Screen"
+msgstr "Sluit skerm"
+
+msgid "Log Out"
+msgstr "Meld af"
+
+msgid "Power Off"
+msgstr "Skakel af"
+
+msgid "Restart"
+msgstr "Herbegin"
+
+msgid "Suspend"
+msgstr "Sluimer"
+
+msgid "Switch User"
+msgstr "Wissel gebruiker"
+

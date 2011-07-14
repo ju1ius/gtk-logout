@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "বাতিল"
+
+msgid "Lock Screen"
+msgstr "লক স্ক্রিন"
+
+msgid "Log Out"
+msgstr "লগআউট"
+
+msgid "Power Off"
+msgstr "পাওয়ার বন্ধ..."
+
+msgid "Restart"
+msgstr "রিস্টার্ট"
+
+msgid "Suspend"
+msgstr "বাতিল"
+
+msgid "Switch User"
+msgstr "ব্যবহারকারী পরিবর্তন"
+

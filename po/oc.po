@@ -1,0 +1,12 @@
+msgid "Hibernate"
+msgstr "Ibernar"
+
+msgid "Lock Screen"
+msgstr "Varrolhar l'ecran"
+
+msgid "Restart"
+msgstr "Tornar lançar"
+
+msgid "Suspend"
+msgstr "Suspendre"
+

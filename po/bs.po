@@ -1,0 +1,9 @@
+msgid "Lock Screen"
+msgstr "_Zaključaj ekran"
+
+msgid "Log Out"
+msgstr "Odjava"
+
+msgid "Restart"
+msgstr "Ponovo pokreni"
+

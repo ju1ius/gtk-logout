@@ -1,0 +1,18 @@
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+msgid "Lock Screen"
+msgstr "Κλείδωμα οθόνης"
+
+msgid "Log Out"
+msgstr "Αποσύνδεση..."
+
+msgid "Restart"
+msgstr ""
+
+msgid "Suspend"
+msgstr "Αναστολή..."
+
+msgid "Switch User"
+msgstr "Αλλαγή χρήστη"
+

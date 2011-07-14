@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Lock Screen"
+msgstr "Trancar o Ecrã"
+
+msgid "Log Out"
+msgstr "Terminar Sessão"
+
+msgid "Power Off"
+msgstr "Desligar"
+
+msgid "Restart"
+msgstr "Reiniciar"
+
+msgid "Suspend"
+msgstr "Suspender"
+
+msgid "Switch User"
+msgstr "Alternar Utilizador"
+

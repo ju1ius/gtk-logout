@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Lock Screen"
+msgstr "Lock Screen"
+
+msgid "Log Out"
+msgstr "Log Out"
+
+msgid "Power Off"
+msgstr "Power Off"
+
+msgid "Restart"
+msgstr "Restart"
+
+msgid "Suspend"
+msgstr "Suspend"
+
+msgid "Switch User"
+msgstr "Switch User"
+

@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "Откажи"
+
+msgid "Lock Screen"
+msgstr "Закључај екран"
+
+msgid "Log Out"
+msgstr "Одјави"
+
+msgid "Power Off"
+msgstr "Искључи"
+
+msgid "Restart"
+msgstr "Поново покрени"
+
+msgid "Suspend"
+msgstr "Обустави"
+
+msgid "Switch User"
+msgstr "Промени корисника"
+

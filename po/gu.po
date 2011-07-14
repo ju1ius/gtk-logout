@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "રદ કરો"
+
+msgid "Lock Screen"
+msgstr "સ્ક્રીનને તાળુ મારો"
+
+msgid "Log Out"
+msgstr "બહાર નીકળો"
+
+msgid "Power Off"
+msgstr "પાવર બંધ"
+
+msgid "Restart"
+msgstr "પુન:શરૂ કરો"
+
+msgid "Suspend"
+msgstr "અટકાવો"
+
+msgid "Switch User"
+msgstr "વપરાશકર્તાને બદલો"
+

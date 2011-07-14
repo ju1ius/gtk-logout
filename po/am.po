@@ -1,0 +1,9 @@
+msgid "Lock Screen"
+msgstr "እስክሪን ቆልፍ"
+
+msgid "Log Out"
+msgstr "ዘግተው ይውጡ"
+
+msgid "Restart"
+msgstr "እንደገና አስጀምሩ"
+

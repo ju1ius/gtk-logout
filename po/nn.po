@@ -1,0 +1,15 @@
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Hibernate"
+msgstr "Dvalemodus"
+
+msgid "Lock Screen"
+msgstr "Lås skjerm"
+
+msgid "Suspend"
+msgstr "Kvilemodus"
+
+msgid "Switch User"
+msgstr "Byt brukar"
+

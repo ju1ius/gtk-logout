@@ -1,0 +1,12 @@
+msgid "Cancel"
+msgstr "𐑒𐑨𐑯𐑕𐑩𐑤"
+
+msgid "Hibernate"
+msgstr "𐑣𐑲𐑚𐑼𐑯𐑱𐑑"
+
+msgid "Lock Screen"
+msgstr "𐑤𐑪𐑒 𐑕𐑒𐑮𐑰𐑯"
+
+msgid "Suspend"
+msgstr "𐑕𐑩𐑕𐑐𐑧𐑯𐑛"
+

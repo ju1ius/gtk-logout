@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "ألغِ"
+
+msgid "Lock Screen"
+msgstr "أوصد الشاشة"
+
+msgid "Log Out"
+msgstr "اخرج"
+
+msgid "Power Off"
+msgstr "أطفئ الحاسوب"
+
+msgid "Restart"
+msgstr "أعِد التشغيل"
+
+msgid "Suspend"
+msgstr "علّق"
+
+msgid "Switch User"
+msgstr "بدّل المستخدم"
+

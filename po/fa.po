@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "لغو"
+
+msgid "Lock Screen"
+msgstr "قفل کردن صفحه"
+
+msgid "Log Out"
+msgstr "خروج از سیستم"
+
+msgid "Power Off"
+msgstr "خاموش کردن"
+
+msgid "Restart"
+msgstr "راه‌اندازی مجدد"
+
+msgid "Suspend"
+msgstr "تعلیق"
+
+msgid "Switch User"
+msgstr "تعویض کاربر"
+

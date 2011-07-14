@@ -1,0 +1,6 @@
+msgid "Lock Screen"
+msgstr "_Bloche schermo"
+
+msgid "Restart"
+msgstr "Torne a inviâ"
+

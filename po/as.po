@@ -1,0 +1,12 @@
+msgid "Cancel"
+msgstr "বাতিল কৰক"
+
+msgid "Hibernate"
+msgstr "নিদ্ৰিত"
+
+msgid "Lock Screen"
+msgstr "পৰ্দা লক কৰক"
+
+msgid "Suspend"
+msgstr "স্থগিত"
+

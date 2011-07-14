@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Lock Screen"
+msgstr "Lås skjerm"
+
+msgid "Log Out"
+msgstr "Logg ut"
+
+msgid "Power Off"
+msgstr "Slå av"
+
+msgid "Restart"
+msgstr "Start på nytt"
+
+msgid "Suspend"
+msgstr "Hvilemodus"
+
+msgid "Switch User"
+msgstr "Bytt bruker"
+

@@ -1,0 +1,6 @@
+msgid "Lock Screen"
+msgstr "Արգելափակել էկրանը"
+
+msgid "Restart"
+msgstr "Վերագործարկում"
+

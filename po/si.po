@@ -1,0 +1,12 @@
+msgid "Hibernate"
+msgstr "ශිශිරතරණය"
+
+msgid "Lock Screen"
+msgstr "තිරය අගුලු දමන්න"
+
+msgid "Restart"
+msgstr "නැවත-අරභමින්"
+
+msgid "Suspend"
+msgstr "අත්හිටු වීම"
+

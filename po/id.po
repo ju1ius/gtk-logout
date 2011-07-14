@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "Batal"
+
+msgid "Lock Screen"
+msgstr "Kunci Layar"
+
+msgid "Log Out"
+msgstr "Keluar"
+
+msgid "Power Off"
+msgstr "Matikan"
+
+msgid "Restart"
+msgstr "Nyalakan Ulang"
+
+msgid "Suspend"
+msgstr "Suspensi"
+
+msgid "Switch User"
+msgstr "Ganti Pengguna"
+

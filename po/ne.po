@@ -1,0 +1,6 @@
+msgid "Lock Screen"
+msgstr "पर्दामा ताल्चा लगाउनुहोस्"
+
+msgid "Restart"
+msgstr "फेरि सुरु गर्नुहोस्"
+

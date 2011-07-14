@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+msgid "Lock Screen"
+msgstr "ล็อคหน้าจอ"
+
+msgid "Log Out"
+msgstr "ออกจากระบบ"
+
+msgid "Power Off"
+msgstr "ปิดเครื่อง"
+
+msgid "Restart"
+msgstr "เปิดเครื่องใหม่"
+
+msgid "Suspend"
+msgstr "พักเครื่อง"
+
+msgid "Switch User"
+msgstr "สลับผู้ใช้"
+

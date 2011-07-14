@@ -1,0 +1,12 @@
+msgid "Cancel"
+msgstr "Betalkirin"
+
+msgid "Hibernate"
+msgstr "Xewa kûr"
+
+msgid "Lock Screen"
+msgstr "Ekranê _qifil bike"
+
+msgid "Suspend"
+msgstr "Têxe xewê"
+

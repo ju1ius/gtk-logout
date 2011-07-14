@@ -1,0 +1,9 @@
+msgid "Lock Screen"
+msgstr ""
+
+msgid "Log Out"
+msgstr ""
+
+msgid "Restart"
+msgstr ""
+

@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "ரத்துசெய்க"
+
+msgid "Lock Screen"
+msgstr "திரையைப் பூட்டுக."
+
+msgid "Log Out"
+msgstr "வெளியேறு"
+
+msgid "Power Off"
+msgstr "மின்சக்தி நிறுத்தம்"
+
+msgid "Restart"
+msgstr "மறு துவக்கம்"
+
+msgid "Suspend"
+msgstr "இடைநிறுத்தம்."
+
+msgid "Switch User"
+msgstr "பயனர் மாற்று"
+

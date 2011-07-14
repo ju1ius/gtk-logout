@@ -1,0 +1,6 @@
+msgid "Lock Screen"
+msgstr "Дэлгэц түгжих"
+
+msgid "Restart"
+msgstr "Дахин эхлэх"
+

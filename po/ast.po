@@ -1,0 +1,12 @@
+msgid "Cancel"
+msgstr "Encaboxar"
+
+msgid "Hibernate"
+msgstr "Ivernar"
+
+msgid "Lock Screen"
+msgstr "Candar pantalla"
+
+msgid "Suspend"
+msgstr "Suspender"
+

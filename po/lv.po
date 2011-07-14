@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "Atcelt"
+
+msgid "Lock Screen"
+msgstr "Bloķēt ekrānu"
+
+msgid "Log Out"
+msgstr "Izrakstīties"
+
+msgid "Power Off"
+msgstr "Izslēgt"
+
+msgid "Restart"
+msgstr "Pārstartēt"
+
+msgid "Suspend"
+msgstr "Iesnaudināt"
+
+msgid "Switch User"
+msgstr "Mainīt lietotāju"
+

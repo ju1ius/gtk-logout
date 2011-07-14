@@ -1,0 +1,3 @@
+msgid "Lock Screen"
+msgstr "Cur ghlass er yn  fastee"
+

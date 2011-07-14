@@ -1,0 +1,9 @@
+msgid "Lock Screen"
+msgstr "Eclawer li waitroûle"
+
+msgid "Log Out"
+msgstr "Si dislodjî"
+
+msgid "Restart"
+msgstr "Renonder"
+

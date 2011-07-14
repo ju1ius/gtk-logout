@@ -1,0 +1,24 @@
+msgid "Cancel"
+msgstr "रद्द करा"
+
+msgid "Hibernate"
+msgstr "हायबरनेट"
+
+msgid "Lock Screen"
+msgstr "पडदा कुलूपबंद करा"
+
+msgid "Log Out"
+msgstr "बाहेर पडा"
+
+msgid "Power Off"
+msgstr "बंद करा"
+
+msgid "Restart"
+msgstr "पुनः सुरू करा"
+
+msgid "Suspend"
+msgstr "स्तब्ध"
+
+msgid "Switch User"
+msgstr "उपयोक्ता बदला"
+

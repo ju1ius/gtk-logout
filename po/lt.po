@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "Atšaukti"
+
+msgid "Lock Screen"
+msgstr "Užrakinti ekraną"
+
+msgid "Log Out"
+msgstr "Atsijungti"
+
+msgid "Power Off"
+msgstr "Išjungti"
+
+msgid "Restart"
+msgstr "Įkelti iš naujo"
+
+msgid "Suspend"
+msgstr "Užmigdyti"
+
+msgid "Switch User"
+msgstr "Keisti naudotoją"
+

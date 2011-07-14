@@ -1,0 +1,24 @@
+msgid "Cancel"
+msgstr "বাতিল"
+
+msgid "Hibernate"
+msgstr "নিদ্রিত"
+
+msgid "Lock Screen"
+msgstr "পর্দা লক করুন"
+
+msgid "Log Out"
+msgstr "প্রস্থান করুন"
+
+msgid "Power Off"
+msgstr "বন্ধ করুন"
+
+msgid "Restart"
+msgstr "পুনরারম্ভ"
+
+msgid "Suspend"
+msgstr "স্থগিত"
+
+msgid "Switch User"
+msgstr "ব্যবহারকারী পরিবর্তন"
+

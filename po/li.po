@@ -1,0 +1,6 @@
+msgid "Lock Screen"
+msgstr "Bildsjirm vas doon"
+
+msgid "Log Out"
+msgstr "Aafmelje"
+

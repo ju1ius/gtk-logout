@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "Katkesta"
+
+msgid "Lock Screen"
+msgstr "Lukusta ekraan"
+
+msgid "Log Out"
+msgstr "Logi välja"
+
+msgid "Power Off"
+msgstr "Lülita välja"
+
+msgid "Restart"
+msgstr "Taaskäivita"
+
+msgid "Suspend"
+msgstr "Uinak"
+
+msgid "Switch User"
+msgstr "Vaheta kasutajat"
+

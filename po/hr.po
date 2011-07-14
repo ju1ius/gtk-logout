@@ -1,0 +1,12 @@
+msgid "Cancel"
+msgstr ""
+
+msgid "Hibernate"
+msgstr "Hiberniraj"
+
+msgid "Lock Screen"
+msgstr "_Zaključavanje zaslona"
+
+msgid "Suspend"
+msgstr "Suspendiraj"
+

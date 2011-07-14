@@ -1,0 +1,6 @@
+msgid "Cancel"
+msgstr "بندول"
+
+msgid "Lock Screen"
+msgstr "پرده کولپول"
+

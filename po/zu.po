@@ -1,0 +1,9 @@
+msgid "Lock Screen"
+msgstr "_Bopha Isibuko"
+
+msgid "Log Out"
+msgstr "Mngenisi Phuma"
+
+msgid "Restart"
+msgstr "Qala kabusha"
+

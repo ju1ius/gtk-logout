@@ -1,0 +1,21 @@
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Lock Screen"
+msgstr "画面のロック"
+
+msgid "Log Out"
+msgstr "ログアウト"
+
+msgid "Power Off"
+msgstr "電源オフ"
+
+msgid "Restart"
+msgstr "再起動"
+
+msgid "Suspend"
+msgstr "サスペンド"
+
+msgid "Switch User"
+msgstr "ユーザーの切り替え"
+

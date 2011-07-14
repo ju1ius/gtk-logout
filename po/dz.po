@@ -1,0 +1,12 @@
+msgid "Hibernate"
+msgstr "གཉིད་ནང་བཙུགས་ནི།"
+
+msgid "Lock Screen"
+msgstr "གསལ་གཞི་ལྡེ་མིག་རྐྱབས།"
+
+msgid "Restart"
+msgstr "ལོག་འགོ་བཙུགས།"
+
+msgid "Suspend"
+msgstr "འཕྲལ་བཀག"
+

@@ -1,0 +1,9 @@
+msgid "Lock Screen"
+msgstr "Tshixa Iskrini"
+
+msgid "Log Out"
+msgstr "Ukuphuma"
+
+msgid "Restart"
+msgstr "Phinda uqalise"
+

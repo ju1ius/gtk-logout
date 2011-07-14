@@ -1,0 +1,9 @@
+msgid "Lock Screen"
+msgstr "Ekranı _Qıfılla"
+
+msgid "Log Out"
+msgstr "Çıx"
+
+msgid "Restart"
+msgstr "Yenidən başlat"
+
