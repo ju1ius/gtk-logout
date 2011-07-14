@@ -79,7 +79,7 @@ class LogoutMenu(gtk.Window):
         # Initialize i18n
         gettext.install(
             "gtk-logout",
-            os.path.join(os.path.dirname(os.path.abspath(__file__)), "locale"),
+            os.path.join(os.path.dirname(os.path.realpath(__file__)), "locale"),
             unicode=1
         )
         # Load configuration file
