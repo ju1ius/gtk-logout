@@ -8,7 +8,7 @@ Install
 
 Install dependencies:
 
-    sudo aptitude install python-gtk
+    sudo aptitude install python-gtk2
 
 gtk-logout can optionaly use dbus to easily handle shutdown, reboot, suspend and hibernate actions:
 
@@ -32,6 +32,3 @@ Next
 ====
 
 [Check the wiki](http://github.com/ju1ius/gtk-logout/wiki)
-
------------------------------------------------------------------------
-This program is inspired by [oblogout](https://launchpad.net/oblogout)

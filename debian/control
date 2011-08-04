@@ -1,0 +1,16 @@
+Source: gtk-logout
+Section: admin
+Priority: extra
+Maintainer: Jules Bernable <jules.bernable@laposte.net>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.8.4
+Homepage: http://github.com/ju1ius/gtk-logout
+Vcs-Git: git://github.com/ju1ius/gtk-logout.git
+Vcs-Browser: http://github.com/ju1ius/gtk-logout
+
+Package: gtk-logout
+Architecture: any
+Depends: python-gtk2
+Recommends: python-dbus,policykit-1,consolekit,upower,python-imaging,python-cairo
+Description: A simple and configurable logout menu.
+
