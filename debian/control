@@ -9,7 +9,7 @@ Vcs-Git: git://github.com/ju1ius/gtk-logout.git
 Vcs-Browser: http://github.com/ju1ius/gtk-logout
 
 Package: gtk-logout
-Architecture: any
+Architecture: all
 Depends: python-gtk2
 Recommends: python-dbus,policykit-1,consolekit,upower,python-imaging,python-cairo
 Description: A simple and configurable logout menu.
