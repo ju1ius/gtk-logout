@@ -1,6 +1,27 @@
+msgid "Cancel"
+msgstr "रद्द गर्नुहोस्"
+
+msgid "Quit"
+msgstr "अन्त्य गर्नुहोस्"
+
+msgid "Hibernate"
+msgstr ""
+
 msgid "Lock Screen"
 msgstr "पर्दामा ताल्चा लगाउनुहोस्"
 
+msgid "Log out"
+msgstr "लग आउट गर्नुहोस्"
+
 msgid "Restart"
-msgstr "फेरि सुरु गर्नुहोस्"
+msgstr "फेरि सुरू गर्नुहोस्"
+
+msgid "Shut Down"
+msgstr "बन्द गर्नुहोस्"
+
+msgid "Suspend"
+msgstr "निलम्बन"
+
+msgid "Switch User"
+msgstr "स्विच प्रयोगकर्ता"
 

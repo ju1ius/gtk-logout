@@ -1,17 +1,23 @@
 msgid "Cancel"
 msgstr "Abbrechen"
 
+msgid "Quit"
+msgstr "Beenden"
+
+msgid "Hibernate"
+msgstr "Ruhezustand"
+
 msgid "Lock Screen"
 msgstr "Bildschirm sperren"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "Abmelden"
 
-msgid "Power Off"
-msgstr "Ausschalten"
-
 msgid "Restart"
-msgstr "Neu starten"
+msgstr "Neustart"
+
+msgid "Shut Down"
+msgstr "Ausschalten"
 
 msgid "Suspend"
 msgstr "Bereitschaft"

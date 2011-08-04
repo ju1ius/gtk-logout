@@ -1,0 +1,6 @@
+msgid "Cancel"
+msgstr "ရပ်ဆိုင်းပါ"
+
+msgid "Quit"
+msgstr "ပိတ်ပါ"
+

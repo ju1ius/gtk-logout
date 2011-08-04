@@ -1,12 +1,27 @@
 msgid "Cancel"
-msgstr "Betalkirin"
+msgstr "Betal"
+
+msgid "Quit"
+msgstr "Derketin"
 
 msgid "Hibernate"
-msgstr "Xewa kûr"
+msgstr ""
 
 msgid "Lock Screen"
-msgstr "Ekranê _qifil bike"
+msgstr "Dîmenê Qifl Bike"
+
+msgid "Log out"
+msgstr "Derkeve"
+
+msgid "Restart"
+msgstr "Dîsa destpêkirin"
+
+msgid "Shut Down"
+msgstr "Girtin"
 
 msgid "Suspend"
-msgstr "Têxe xewê"
+msgstr "Rawestandin"
+
+msgid "Switch User"
+msgstr "Bikarhêner biguherîne"
 

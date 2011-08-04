@@ -1,17 +1,23 @@
 msgid "Cancel"
-msgstr "ۋاز كەچ"
+msgstr "ئەمەلدىن قالدۇر(C)"
+
+msgid "Quit"
+msgstr "چېكىن(Q)"
+
+msgid "Hibernate"
+msgstr "ئۈچەك"
 
 msgid "Lock Screen"
 msgstr "ئېكراننى قۇلۇپلاش"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "تىزىمدىن چىق"
-
-msgid "Power Off"
-msgstr "توكنى ئۈز"
 
 msgid "Restart"
 msgstr "قايتا قوزغات"
+
+msgid "Shut Down"
+msgstr "تاقاش"
 
 msgid "Suspend"
 msgstr "توڭلات"

@@ -1,17 +1,23 @@
 msgid "Cancel"
 msgstr "Cancel·la"
 
+msgid "Quit"
+msgstr "Surt"
+
+msgid "Hibernate"
+msgstr "Hiberna"
+
 msgid "Lock Screen"
 msgstr "Bloca la pantalla"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "Surt"
-
-msgid "Power Off"
-msgstr "Apaga"
 
 msgid "Restart"
 msgstr "Reinicia"
+
+msgid "Shut Down"
+msgstr "Atura"
 
 msgid "Suspend"
 msgstr "Atura temporalment"

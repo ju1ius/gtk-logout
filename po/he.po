@@ -1,20 +1,26 @@
 msgid "Cancel"
 msgstr "ביטול"
 
-msgid "Lock Screen"
-msgstr "נעילת המסך"
-
-msgid "Log Out"
+msgid "Quit"
 msgstr "יציאה"
 
-msgid "Power Off"
-msgstr "כיבוי"
+msgid "Hibernate"
+msgstr "מצב תרדמת"
+
+msgid "Lock Screen"
+msgstr "נעל מסך"
+
+msgid "Log out"
+msgstr "יציאה"
 
 msgid "Restart"
-msgstr "הפעלה מחדש"
+msgstr "הפעל מחדש"
+
+msgid "Shut Down"
+msgstr "כיבוי"
 
 msgid "Suspend"
-msgstr "השהיה"
+msgstr "השהה"
 
 msgid "Switch User"
 msgstr "החלפת משתמש"

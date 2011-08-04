@@ -1,6 +1,21 @@
 msgid "Cancel"
 msgstr "بندول"
 
+msgid "Quit"
+msgstr "بندول"
+
 msgid "Lock Screen"
 msgstr "پرده کولپول"
+
+msgid "Restart"
+msgstr "بياپېلول"
+
+msgid "Shut Down"
+msgstr "ګلول"
+
+msgid "Suspend"
+msgstr ""
+
+msgid "Switch User"
+msgstr "کارن ونجول"
 

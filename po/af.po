@@ -1,17 +1,23 @@
 msgid "Cancel"
 msgstr "Kanselleer"
 
+msgid "Quit"
+msgstr "Sluit af"
+
+msgid "Hibernate"
+msgstr "Hiberneer"
+
 msgid "Lock Screen"
 msgstr "Sluit skerm"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "Meld af"
-
-msgid "Power Off"
-msgstr "Skakel af"
 
 msgid "Restart"
 msgstr "Herbegin"
+
+msgid "Shut Down"
+msgstr "Skakel af"
 
 msgid "Suspend"
 msgstr "Sluimer"

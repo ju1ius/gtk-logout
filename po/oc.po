@@ -1,12 +1,27 @@
+msgid "Cancel"
+msgstr "Anullar"
+
+msgid "Quit"
+msgstr "Sortir"
+
 msgid "Hibernate"
-msgstr "Ibernar"
+msgstr ""
 
 msgid "Lock Screen"
 msgstr "Varrolhar l'ecran"
 
+msgid "Log out"
+msgstr "Desconnexion"
+
 msgid "Restart"
 msgstr "Tornar lançar"
 
+msgid "Shut Down"
+msgstr "Atudar l'ordenador"
+
 msgid "Suspend"
 msgstr "Suspendre"
+
+msgid "Switch User"
+msgstr "Cambiar d'utilizaire"
 

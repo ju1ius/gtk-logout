@@ -1,17 +1,23 @@
 msgid "Cancel"
 msgstr "Отказване"
 
+msgid "Quit"
+msgstr "Спиране на програмата"
+
+msgid "Hibernate"
+msgstr "дълбоко приспиване"
+
 msgid "Lock Screen"
 msgstr "Заключване на екрана"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "Изход"
-
-msgid "Power Off"
-msgstr "Изключване"
 
 msgid "Restart"
 msgstr "Рестартиране"
+
+msgid "Shut Down"
+msgstr "Изключване"
 
 msgid "Suspend"
 msgstr "Приспиване"

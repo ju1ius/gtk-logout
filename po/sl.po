@@ -1,20 +1,26 @@
 msgid "Cancel"
 msgstr "Prekliči"
 
+msgid "Quit"
+msgstr "Končaj"
+
+msgid "Hibernate"
+msgstr "Mirovanje"
+
 msgid "Lock Screen"
 msgstr "Zakleni zaslon"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "Odjava"
 
-msgid "Power Off"
-msgstr "Izklop"
-
 msgid "Restart"
-msgstr "Zaženi znova"
+msgstr "Ponovno zaženi"
+
+msgid "Shut Down"
+msgstr "Izklopi računalnik"
 
 msgid "Suspend"
-msgstr "Zaustavi"
+msgstr "V mirovanje"
 
 msgid "Switch User"
 msgstr "Preklopi uporabnika"

@@ -1,12 +1,27 @@
 msgid "Cancel"
 msgstr "Encaboxar"
 
+msgid "Quit"
+msgstr "Colar"
+
 msgid "Hibernate"
-msgstr "Ivernar"
+msgstr ""
 
 msgid "Lock Screen"
-msgstr "Candar pantalla"
+msgstr "Bloquiar Pantalla"
+
+msgid "Log out"
+msgstr "Disposición"
+
+msgid "Restart"
+msgstr "Reaniciar"
+
+msgid "Shut Down"
+msgstr "Apagar"
 
 msgid "Suspend"
 msgstr "Suspender"
+
+msgid "Switch User"
+msgstr "Cambiador"
 

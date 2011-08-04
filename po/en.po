@@ -1,0 +1,12 @@
+msgid "Cancel"
+msgstr ""
+
+msgid "Quit"
+msgstr ""
+
+msgid "Hibernate"
+msgstr ""
+
+msgid "Log out"
+msgstr ""
+

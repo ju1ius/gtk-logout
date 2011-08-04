@@ -1,17 +1,26 @@
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Renunță"
+
+msgid "Quit"
+msgstr "Ieșire"
+
+msgid "Hibernate"
+msgstr "Hibernează"
 
 msgid "Lock Screen"
-msgstr "Blochează ecranul"
+msgstr "Blocare ecran"
 
-msgid "Log Out"
-msgstr "Ieșire din sesiune"
+msgid "Log out"
+msgstr "Închide sesiunea"
 
 msgid "Restart"
-msgstr "Repornește"
+msgstr "Repornire"
+
+msgid "Shut Down"
+msgstr "Oprire"
 
 msgid "Suspend"
-msgstr "Suspendă"
+msgstr "Suspendare"
 
 msgid "Switch User"
 msgstr "Comută utilizatorul"

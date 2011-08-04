@@ -1,17 +1,23 @@
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
+
+msgid "Quit"
+msgstr "Izađi"
+
+msgid "Hibernate"
+msgstr "Zamrzni"
 
 msgid "Lock Screen"
 msgstr "Zaključaj ekran"
 
-msgid "Log Out"
-msgstr "Odjavi"
-
-msgid "Power Off"
-msgstr "Isključi"
+msgid "Log out"
+msgstr "Odjava"
 
 msgid "Restart"
 msgstr "Ponovo pokreni"
+
+msgid "Shut Down"
+msgstr "Isključi"
 
 msgid "Suspend"
 msgstr "Obustavi"

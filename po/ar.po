@@ -1,17 +1,23 @@
 msgid "Cancel"
 msgstr "ألغِ"
 
+msgid "Quit"
+msgstr "أنهِ"
+
+msgid "Hibernate"
+msgstr "أسبِت"
+
 msgid "Lock Screen"
 msgstr "أوصد الشاشة"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "اخرج"
-
-msgid "Power Off"
-msgstr "أطفئ الحاسوب"
 
 msgid "Restart"
 msgstr "أعِد التشغيل"
+
+msgid "Shut Down"
+msgstr "أطفئ"
 
 msgid "Suspend"
 msgstr "علّق"

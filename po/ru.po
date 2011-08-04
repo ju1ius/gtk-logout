@@ -1,20 +1,26 @@
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Отменить"
+
+msgid "Quit"
+msgstr "Выход"
+
+msgid "Hibernate"
+msgstr "Переводить в спящий режим"
 
 msgid "Lock Screen"
 msgstr "Заблокировать экран"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "Выйти из системы"
-
-msgid "Power Off"
-msgstr "Выключить"
 
 msgid "Restart"
 msgstr "Перезапустить"
 
+msgid "Shut Down"
+msgstr "Выключить"
+
 msgid "Suspend"
-msgstr "Ждущий режим"
+msgstr "Спящий режим"
 
 msgid "Switch User"
 msgstr "Сменить пользователя"

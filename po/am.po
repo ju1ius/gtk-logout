@@ -1,9 +1,27 @@
+msgid "Cancel"
+msgstr "ተወው (C)"
+
+msgid "Quit"
+msgstr "ውጣ (Q)"
+
+msgid "Hibernate"
+msgstr ""
+
 msgid "Lock Screen"
 msgstr "እስክሪን ቆልፍ"
 
-msgid "Log Out"
-msgstr "ዘግተው ይውጡ"
+msgid "Log out"
+msgstr "እቅድ"
 
 msgid "Restart"
 msgstr "እንደገና አስጀምሩ"
+
+msgid "Shut Down"
+msgstr "አጥፉ... (D)"
+
+msgid "Suspend"
+msgstr ""
+
+msgid "Switch User"
+msgstr "ቅድመ ዕይታ"
 

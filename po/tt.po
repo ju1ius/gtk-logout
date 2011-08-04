@@ -1,0 +1,6 @@
+msgid "Cancel"
+msgstr "Kiräkmi"
+
+msgid "Quit"
+msgstr "Çığış"
+

@@ -1,15 +1,27 @@
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Quit"
+msgstr "Quit"
+
 msgid "Hibernate"
-msgstr "Hibernate"
+msgstr ""
 
 msgid "Lock Screen"
 msgstr "Lock Screen"
 
-msgid "Log Out"
-msgstr "Log Out"
+msgid "Log out"
+msgstr "Log out"
 
 msgid "Restart"
 msgstr "Restart"
 
+msgid "Shut Down"
+msgstr "Shut Down"
+
 msgid "Suspend"
 msgstr "Suspend"
+
+msgid "Switch User"
+msgstr "Switch User"
 

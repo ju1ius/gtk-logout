@@ -1,6 +1,15 @@
-msgid "Cancel"
-msgstr "Ôfbrekke"
-
 msgid "Lock Screen"
-msgstr "Skerm skoattelje"
+msgstr "Byldskerm op slot dwaan"
+
+msgid "Restart"
+msgstr ""
+
+msgid "Shut Down"
+msgstr ""
+
+msgid "Suspend"
+msgstr ""
+
+msgid "Switch User"
+msgstr "Scheakeler"
 

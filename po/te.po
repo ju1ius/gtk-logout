@@ -1,5 +1,8 @@
 msgid "Cancel"
-msgstr "రద్దుచేయి"
+msgstr "రద్దుచేయు (C)"
+
+msgid "Quit"
+msgstr "నిష్క్రమించు (Q)"
 
 msgid "Hibernate"
 msgstr "షుప్తావస్థ"
@@ -7,18 +10,18 @@ msgstr "షుప్తావస్థ"
 msgid "Lock Screen"
 msgstr "తెరకు తాళంవేయి"
 
-msgid "Log Out"
-msgstr "నిష్క్రమించు"
-
-msgid "Power Off"
-msgstr "విద్యుత్ ఆపు"
+msgid "Log out"
+msgstr "జూమ్"
 
 msgid "Restart"
 msgstr "పునఃప్రారంభించు"
 
+msgid "Shut Down"
+msgstr "మూసివేయి"
+
 msgid "Suspend"
-msgstr "అర్ధాంతరంగానిలిపివేయు"
+msgstr "అర్ధాంతరనిలుపుదల"
 
 msgid "Switch User"
-msgstr "వాడుకరిని మార్చు"
+msgstr "మార్చునది"
 

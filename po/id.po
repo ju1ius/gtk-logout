@@ -1,17 +1,23 @@
 msgid "Cancel"
 msgstr "Batal"
 
+msgid "Quit"
+msgstr "Keluar"
+
+msgid "Hibernate"
+msgstr "Hibernasi"
+
 msgid "Lock Screen"
 msgstr "Kunci Layar"
 
-msgid "Log Out"
-msgstr "Keluar"
-
-msgid "Power Off"
-msgstr "Matikan"
+msgid "Log out"
+msgstr "Log keluar"
 
 msgid "Restart"
-msgstr "Nyalakan Ulang"
+msgstr "Hidupkan Ulang"
+
+msgid "Shut Down"
+msgstr "Matikan"
 
 msgid "Suspend"
 msgstr "Suspensi"

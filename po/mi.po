@@ -1,9 +1,21 @@
+msgid "Cancel"
+msgstr "Whakakore"
+
+msgid "Quit"
+msgstr "Whakamutu"
+
 msgid "Lock Screen"
 msgstr ""
 
-msgid "Log Out"
+msgid "Restart"
 msgstr ""
 
-msgid "Restart"
+msgid "Shut Down"
+msgstr ""
+
+msgid "Suspend"
+msgstr ""
+
+msgid "Switch User"
 msgstr ""
 

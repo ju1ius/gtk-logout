@@ -1,6 +1,27 @@
+msgid "Cancel"
+msgstr "Anullo"
+
+msgid "Quit"
+msgstr "Dalja"
+
+msgid "Hibernate"
+msgstr ""
+
 msgid "Lock Screen"
 msgstr "Blloko Ekranin"
 
+msgid "Log out"
+msgstr "Përfundimi i seancës"
+
 msgid "Restart"
-msgstr "Rifillo"
+msgstr "Rinis"
+
+msgid "Shut Down"
+msgstr "Shuaj"
+
+msgid "Suspend"
+msgstr "Pezullo"
+
+msgid "Switch User"
+msgstr "Zgjedhësi"
 

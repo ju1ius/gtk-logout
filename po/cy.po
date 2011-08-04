@@ -1,12 +1,27 @@
+msgid "Cancel"
+msgstr "Diddymu"
+
+msgid "Quit"
+msgstr "Gadael"
+
 msgid "Hibernate"
-msgstr "Cysgu"
+msgstr ""
 
 msgid "Lock Screen"
 msgstr "Cloi'r Sgrin"
 
+msgid "Log out"
+msgstr "Allgofnodi"
+
 msgid "Restart"
 msgstr "Ailgychwyn"
 
+msgid "Shut Down"
+msgstr "Troi Bant..."
+
 msgid "Suspend"
-msgstr "Seibio"
+msgstr "Gorffwys"
+
+msgid "Switch User"
+msgstr "Newid Defnyddiwr"
 

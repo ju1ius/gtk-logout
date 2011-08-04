@@ -1,9 +1,27 @@
-msgid "Lock Screen"
-msgstr "Ekranı _Qıfılla"
+msgid "Cancel"
+msgstr "Ləğv Et"
 
-msgid "Log Out"
+msgid "Quit"
 msgstr "Çıx"
 
+msgid "Hibernate"
+msgstr ""
+
+msgid "Lock Screen"
+msgstr "Ekranı Qıfılla"
+
+msgid "Log out"
+msgstr "İclası sonlandır"
+
 msgid "Restart"
-msgstr "Yenidən başlat"
+msgstr "Yenidən başla"
+
+msgid "Shut Down"
+msgstr "Söndür"
+
+msgid "Suspend"
+msgstr "Gözlət"
+
+msgid "Switch User"
+msgstr "Dəyişdirici"
 

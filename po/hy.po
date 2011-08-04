@@ -1,6 +1,27 @@
+msgid "Cancel"
+msgstr ""
+
+msgid "Quit"
+msgstr ""
+
+msgid "Hibernate"
+msgstr ""
+
 msgid "Lock Screen"
 msgstr "Արգելափակել էկրանը"
 
+msgid "Log out"
+msgstr "Փոքրացնել․"
+
 msgid "Restart"
-msgstr "Վերագործարկում"
+msgstr "Վերաբեռնել"
+
+msgid "Shut Down"
+msgstr "Անջատել"
+
+msgid "Suspend"
+msgstr "Համաղում"
+
+msgid "Switch User"
+msgstr "Փոխարկիչ"
 

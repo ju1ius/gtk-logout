@@ -1,14 +1,26 @@
 msgid "Cancel"
 msgstr "Avbryt"
 
+msgid "Quit"
+msgstr "Avslutt"
+
 msgid "Hibernate"
-msgstr "Dvalemodus"
+msgstr ""
 
 msgid "Lock Screen"
 msgstr "Lås skjerm"
 
+msgid "Log out"
+msgstr "Forminsk:"
+
+msgid "Restart"
+msgstr "Start om att"
+
+msgid "Shut Down"
+msgstr "Slå av"
+
 msgid "Suspend"
-msgstr "Kvilemodus"
+msgstr "Gå i kvilemodus"
 
 msgid "Switch User"
 msgstr "Byt brukar"

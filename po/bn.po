@@ -1,20 +1,26 @@
 msgid "Cancel"
-msgstr "বাতিল"
+msgstr "বাতিল (C)"
+
+msgid "Quit"
+msgstr "প্রস্থান (Q)"
+
+msgid "Hibernate"
+msgstr "হাইবারনেট"
 
 msgid "Lock Screen"
-msgstr "লক স্ক্রিন"
+msgstr "পর্দা লক করুন"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "লগআউট"
 
-msgid "Power Off"
-msgstr "পাওয়ার বন্ধ..."
-
 msgid "Restart"
-msgstr "রিস্টার্ট"
+msgstr "পুনরায় আরম্ভ করুন"
+
+msgid "Shut Down"
+msgstr "বন্ধ করুন"
 
 msgid "Suspend"
-msgstr "বাতিল"
+msgstr "স্থগিত করুন"
 
 msgid "Switch User"
 msgstr "ব্যবহারকারী পরিবর্তন"

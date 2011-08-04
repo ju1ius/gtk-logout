@@ -1,0 +1,6 @@
+msgid "Cancel"
+msgstr "Annullar"
+
+msgid "Quit"
+msgstr "Quitar"
+

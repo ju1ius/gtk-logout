@@ -1,6 +1,12 @@
+msgid "Cancel"
+msgstr "Одустани"
+
+msgid "Quit"
+msgstr "Изађи"
+
 msgid "Lock Screen"
 msgstr "Закључај екран"
 
-msgid "Log Out"
-msgstr "Одјава"
+msgid "Switch User"
+msgstr "Пребацивач"
 

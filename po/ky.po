@@ -1,6 +1,6 @@
 msgid "Lock Screen"
 msgstr "Экранды блокировкалоо"
 
-msgid "Log Out"
-msgstr "Сессияны аяктоо"
+msgid "Switch User"
+msgstr "Тандагыч"
 

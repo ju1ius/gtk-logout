@@ -1,12 +1,27 @@
+msgid "Cancel"
+msgstr "Hætta við"
+
+msgid "Quit"
+msgstr "Hætta"
+
 msgid "Hibernate"
-msgstr "Leggja í dvala"
+msgstr ""
 
 msgid "Lock Screen"
 msgstr "Læsa skjá"
 
+msgid "Log out"
+msgstr "Umbrot"
+
 msgid "Restart"
 msgstr "Endurræsa"
 
+msgid "Shut Down"
+msgstr "Slökkva"
+
 msgid "Suspend"
-msgstr "Hvíla"
+msgstr ""
+
+msgid "Switch User"
+msgstr "Skipta um notenda"
 

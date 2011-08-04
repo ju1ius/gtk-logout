@@ -1,0 +1,6 @@
+msgid "Cancel"
+msgstr "vangula"
+
+msgid "Quit"
+msgstr "sisa"
+

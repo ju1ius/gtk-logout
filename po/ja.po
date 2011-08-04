@@ -1,17 +1,23 @@
 msgid "Cancel"
-msgstr "キャンセル"
+msgstr "キャンセル(C)"
+
+msgid "Quit"
+msgstr "終了(Q)"
+
+msgid "Hibernate"
+msgstr "ハイバネート"
 
 msgid "Lock Screen"
 msgstr "画面のロック"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "ログアウト"
-
-msgid "Power Off"
-msgstr "電源オフ"
 
 msgid "Restart"
 msgstr "再起動"
+
+msgid "Shut Down"
+msgstr "シャットダウン"
 
 msgid "Suspend"
 msgstr "サスペンド"

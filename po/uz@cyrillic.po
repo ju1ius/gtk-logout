@@ -1,6 +1,27 @@
 msgid "Cancel"
 msgstr "Бекор қилиш"
 
+msgid "Quit"
+msgstr "Чиқиш"
+
+msgid "Hibernate"
+msgstr ""
+
 msgid "Lock Screen"
 msgstr "Экранни қулфлаш"
+
+msgid "Log out"
+msgstr "Сеансни тугатиш"
+
+msgid "Restart"
+msgstr "Ўчириб-ёқиш"
+
+msgid "Shut Down"
+msgstr "Ўчириш"
+
+msgid "Suspend"
+msgstr "Кутиш усули"
+
+msgid "Switch User"
+msgstr "Танлагич"
 

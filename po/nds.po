@@ -1,6 +1,27 @@
 msgid "Cancel"
 msgstr "Avbreken"
 
+msgid "Quit"
+msgstr "Sluten"
+
+msgid "Hibernate"
+msgstr ""
+
 msgid "Lock Screen"
-msgstr "Avslutbillschirm"
+msgstr "Billschirm avsluten"
+
+msgid "Log out"
+msgstr "Utsehn"
+
+msgid "Restart"
+msgstr "Nejstarten"
+
+msgid "Shut Down"
+msgstr "Daalfahren"
+
+msgid "Suspend"
+msgstr "Slopen gahn"
+
+msgid "Switch User"
+msgstr "Wähler"
 

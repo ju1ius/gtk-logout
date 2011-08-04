@@ -1,9 +1,21 @@
-msgid "Lock Screen"
-msgstr "_Bopha Isibuko"
+msgid "Hibernate"
+msgstr ""
 
-msgid "Log Out"
-msgstr "Mngenisi Phuma"
+msgid "Lock Screen"
+msgstr "Bopha Isibuko"
+
+msgid "Log out"
+msgstr "Phuma"
 
 msgid "Restart"
-msgstr "Qala kabusha"
+msgstr "Qala futhi"
+
+msgid "Shut Down"
+msgstr "Cisha"
+
+msgid "Suspend"
+msgstr "Misa"
+
+msgid "Switch User"
+msgstr "Mqhebezi"
 

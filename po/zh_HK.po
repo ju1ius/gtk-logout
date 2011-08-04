@@ -1,17 +1,23 @@
 msgid "Cancel"
-msgstr "取消"
+msgstr "取消(C)"
+
+msgid "Quit"
+msgstr "結束(Q)"
+
+msgid "Hibernate"
+msgstr "休眠"
 
 msgid "Lock Screen"
 msgstr "鎖定畫面"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "登出"
-
-msgid "Power Off"
-msgstr "關閉電源"
 
 msgid "Restart"
 msgstr "重新啟動"
+
+msgid "Shut Down"
+msgstr "關閉電腦"
 
 msgid "Suspend"
 msgstr "暫停"

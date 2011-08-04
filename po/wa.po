@@ -1,9 +1,27 @@
+msgid "Cancel"
+msgstr "Rinoncî"
+
+msgid "Quit"
+msgstr "Moussî foû"
+
+msgid "Hibernate"
+msgstr ""
+
 msgid "Lock Screen"
 msgstr "Eclawer li waitroûle"
 
-msgid "Log Out"
-msgstr "Si dislodjî"
+msgid "Log out"
+msgstr "Adjinçmint"
 
 msgid "Restart"
-msgstr "Renonder"
+msgstr "Rataker"
+
+msgid "Shut Down"
+msgstr "Distinde l' éndjole"
+
+msgid "Suspend"
+msgstr "Ibernåcion"
+
+msgid "Switch User"
+msgstr "Vey divant"
 

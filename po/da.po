@@ -1,20 +1,26 @@
 msgid "Cancel"
 msgstr "Annullér"
 
+msgid "Quit"
+msgstr "Afslut"
+
+msgid "Hibernate"
+msgstr "Dvale"
+
 msgid "Lock Screen"
 msgstr "Lås skærm"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "Log ud"
-
-msgid "Power Off"
-msgstr "Sluk"
 
 msgid "Restart"
 msgstr "Genstart"
 
+msgid "Shut Down"
+msgstr "Luk ned"
+
 msgid "Suspend"
-msgstr "Hviletilstand"
+msgstr "Hvile"
 
 msgid "Switch User"
 msgstr "Skift bruger"

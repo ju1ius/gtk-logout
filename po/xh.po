@@ -1,9 +1,27 @@
+msgid "Cancel"
+msgstr "Rhoxisa"
+
+msgid "Quit"
+msgstr "Phuma"
+
+msgid "Hibernate"
+msgstr ""
+
 msgid "Lock Screen"
 msgstr "Tshixa Iskrini"
 
-msgid "Log Out"
-msgstr "Ukuphuma"
+msgid "Log out"
+msgstr "Phuma"
 
 msgid "Restart"
-msgstr "Phinda uqalise"
+msgstr "Yivule kwakhona"
+
+msgid "Shut Down"
+msgstr "Cima"
+
+msgid "Suspend"
+msgstr "Nqumamisa"
+
+msgid "Switch User"
+msgstr "Umvuli-Mvali"
 

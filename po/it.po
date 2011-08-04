@@ -1,17 +1,23 @@
 msgid "Cancel"
 msgstr "Annulla"
 
+msgid "Quit"
+msgstr "Esci"
+
+msgid "Hibernate"
+msgstr "Ibernare"
+
 msgid "Lock Screen"
 msgstr "Blocca schermo"
 
-msgid "Log Out"
-msgstr "Termina sessione"
-
-msgid "Power Off"
-msgstr "Spegni"
+msgid "Log out"
+msgstr "Termina la sessione"
 
 msgid "Restart"
 msgstr "Riavvia"
+
+msgid "Shut Down"
+msgstr "Arresta"
 
 msgid "Suspend"
 msgstr "Sospendi"

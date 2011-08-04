@@ -1,17 +1,23 @@
 msgid "Cancel"
 msgstr "Mégse"
 
+msgid "Quit"
+msgstr "Kilépés"
+
+msgid "Hibernate"
+msgstr "Hibernálás"
+
 msgid "Lock Screen"
 msgstr "Képernyő zárolása"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "Kijelentkezés"
-
-msgid "Power Off"
-msgstr "Kikapcsolás"
 
 msgid "Restart"
 msgstr "Újraindítás"
+
+msgid "Shut Down"
+msgstr "Leállítás"
 
 msgid "Suspend"
 msgstr "Felfüggesztés"

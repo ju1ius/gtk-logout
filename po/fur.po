@@ -1,6 +1,15 @@
 msgid "Lock Screen"
-msgstr "_Bloche schermo"
+msgstr "Bloche schermo"
 
 msgid "Restart"
 msgstr "Torne a inviâ"
+
+msgid "Shut Down"
+msgstr "Stude"
+
+msgid "Suspend"
+msgstr "Sospent"
+
+msgid "Switch User"
+msgstr "Gambîe utent"
 

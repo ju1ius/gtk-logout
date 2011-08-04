@@ -1,17 +1,23 @@
 msgid "Cancel"
-msgstr "ਰੱਦ ਕਰੋ"
+msgstr "ਰੱਦ ਕਰੋ(C)"
+
+msgid "Quit"
+msgstr "ਬਾਹਰ(Q)"
+
+msgid "Hibernate"
+msgstr "ਹਾਈਬਰਨੇਟ"
 
 msgid "Lock Screen"
 msgstr "ਸਕਰੀਨ ਲਾਕ ਕਰੋ"
 
-msgid "Log Out"
-msgstr "ਲਾਗਆਉਟ"
-
-msgid "Power Off"
-msgstr "ਬੰਦ ਕਰੋ"
+msgid "Log out"
+msgstr "ਲਾਗ ਆਉਟ"
 
 msgid "Restart"
-msgstr "ਮੁੜ-ਚਾਲੂ ਕਰੋ"
+msgstr "ਮੁੜ ਚਾਲੂ"
+
+msgid "Shut Down"
+msgstr "ਬੰਦ ਕਰੋ"
 
 msgid "Suspend"
 msgstr "ਸਸਪੈਂਡ"

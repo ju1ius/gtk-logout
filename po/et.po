@@ -1,20 +1,26 @@
 msgid "Cancel"
-msgstr "Katkesta"
+msgstr "Loobu"
+
+msgid "Quit"
+msgstr "Lõpeta"
+
+msgid "Hibernate"
+msgstr "Talveuni"
 
 msgid "Lock Screen"
-msgstr "Lukusta ekraan"
+msgstr "Ekraani lukustamine"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "Logi välja"
-
-msgid "Power Off"
-msgstr "Lülita välja"
 
 msgid "Restart"
 msgstr "Taaskäivita"
 
+msgid "Shut Down"
+msgstr "Lülita välja"
+
 msgid "Suspend"
-msgstr "Uinak"
+msgstr "Alusta uinakut"
 
 msgid "Switch User"
 msgstr "Vaheta kasutajat"

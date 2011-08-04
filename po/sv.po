@@ -1,17 +1,23 @@
 msgid "Cancel"
 msgstr "Avbryt"
 
+msgid "Quit"
+msgstr "Avsluta"
+
+msgid "Hibernate"
+msgstr "Viloläge"
+
 msgid "Lock Screen"
 msgstr "Lås skärmen"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "Logga ut"
-
-msgid "Power Off"
-msgstr "Stäng av"
 
 msgid "Restart"
 msgstr "Starta om"
+
+msgid "Shut Down"
+msgstr "Stäng av"
 
 msgid "Suspend"
 msgstr "Vänteläge"

@@ -1,6 +1,12 @@
+msgid "Cancel"
+msgstr "Annulere"
+
+msgid "Quit"
+msgstr "Aafsjloete"
+
 msgid "Lock Screen"
 msgstr "Bildsjirm vas doon"
 
-msgid "Log Out"
-msgstr "Aafmelje"
+msgid "Switch User"
+msgstr "Veurbild"
 

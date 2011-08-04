@@ -1,12 +1,27 @@
+msgid "Cancel"
+msgstr "ཆ་མེད་གཏང༌།(C)"
+
+msgid "Quit"
+msgstr "སྤངས།(Q)"
+
 msgid "Hibernate"
-msgstr "གཉིད་ནང་བཙུགས་ནི།"
+msgstr ""
 
 msgid "Lock Screen"
 msgstr "གསལ་གཞི་ལྡེ་མིག་རྐྱབས།"
 
+msgid "Log out"
+msgstr "ཕྱིར་བསྐྱོད་འབད།"
+
 msgid "Restart"
 msgstr "ལོག་འགོ་བཙུགས།"
 
+msgid "Shut Down"
+msgstr "སྒོ་བསྡམས། (D)"
+
 msgid "Suspend"
-msgstr "འཕྲལ་བཀག"
+msgstr "འཕྲལ་བཀག་འབད། (S)"
+
+msgid "Switch User"
+msgstr "ལག་ལེན་སོར་བསྒྱུར་འབད།(S)"
 

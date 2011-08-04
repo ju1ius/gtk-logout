@@ -1,17 +1,23 @@
 msgid "Cancel"
 msgstr "ยกเลิก"
 
+msgid "Quit"
+msgstr "ออก"
+
+msgid "Hibernate"
+msgstr "จำศีลเครื่อง"
+
 msgid "Lock Screen"
 msgstr "ล็อคหน้าจอ"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "ออกจากระบบ"
 
-msgid "Power Off"
-msgstr "ปิดเครื่อง"
-
 msgid "Restart"
-msgstr "เปิดเครื่องใหม่"
+msgstr "เริ่มเปิดเครื่องใหม่"
+
+msgid "Shut Down"
+msgstr "ปิดเครื่อง"
 
 msgid "Suspend"
 msgstr "พักเครื่อง"

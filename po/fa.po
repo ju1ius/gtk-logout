@@ -1,17 +1,23 @@
 msgid "Cancel"
-msgstr "لغو"
+msgstr "انصراف"
+
+msgid "Quit"
+msgstr "ترک"
+
+msgid "Hibernate"
+msgstr "خواب زمستانی"
 
 msgid "Lock Screen"
 msgstr "قفل کردن صفحه"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "خروج از سیستم"
-
-msgid "Power Off"
-msgstr "خاموش کردن"
 
 msgid "Restart"
 msgstr "راه‌اندازی مجدد"
+
+msgid "Shut Down"
+msgstr "خاموش کردن"
 
 msgid "Suspend"
 msgstr "تعلیق"

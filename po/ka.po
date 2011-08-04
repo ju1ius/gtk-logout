@@ -1,12 +1,27 @@
 msgid "Cancel"
 msgstr "გაუქმება"
 
+msgid "Quit"
+msgstr "დასრულება"
+
 msgid "Hibernate"
-msgstr "ძილის რეჟიმი"
+msgstr ""
 
 msgid "Lock Screen"
-msgstr "ეკრანის დაბლოკვა"
+msgstr "ეკრანის დაცვა პაროლით"
+
+msgid "Log out"
+msgstr "გასვლა"
+
+msgid "Restart"
+msgstr "გადატვირთე"
+
+msgid "Shut Down"
+msgstr "გამოთიშე"
 
 msgid "Suspend"
-msgstr "შეჩერება"
+msgstr "შეაყოვნე"
+
+msgid "Switch User"
+msgstr "მომხმარებლის გადართვა"
 

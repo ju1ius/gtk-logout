@@ -1,6 +1,12 @@
+msgid "Cancel"
+msgstr "רוף אָפּ"
+
+msgid "Quit"
+msgstr "הער אױף"
+
 msgid "Lock Screen"
 msgstr ""
 
-msgid "Log Out"
+msgid "Switch User"
 msgstr ""
 

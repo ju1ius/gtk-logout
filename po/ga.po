@@ -1,23 +1,26 @@
 msgid "Cancel"
 msgstr "Cealaigh"
 
+msgid "Quit"
+msgstr "Scoir"
+
 msgid "Hibernate"
-msgstr "Geimhrigh"
+msgstr ""
 
 msgid "Lock Screen"
 msgstr "Cuir Scáileán Faoi Ghlas"
 
-msgid "Log Out"
-msgstr "Logáil Amach"
-
-msgid "Power Off"
-msgstr "Múch"
+msgid "Log out"
+msgstr ""
 
 msgid "Restart"
 msgstr "Atosaigh"
 
+msgid "Shut Down"
+msgstr "Múch"
+
 msgid "Suspend"
-msgstr "Cuir ar fionraí"
+msgstr "Cuir ar Fionraí"
 
 msgid "Switch User"
 msgstr "Athraigh Úsáideoir"

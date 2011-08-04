@@ -1,20 +1,26 @@
 msgid "Cancel"
 msgstr "Скасувати"
 
+msgid "Quit"
+msgstr "Вийти"
+
+msgid "Hibernate"
+msgstr "Приспати"
+
 msgid "Lock Screen"
 msgstr "Заблокувати екран"
 
-msgid "Log Out"
-msgstr "Завершити сеанс"
-
-msgid "Power Off"
-msgstr "Вимкнути"
+msgid "Log out"
+msgstr "Вийти"
 
 msgid "Restart"
 msgstr "Перезапустити"
 
+msgid "Shut Down"
+msgstr "Вимкнути"
+
 msgid "Suspend"
-msgstr "Призупинити"
+msgstr "Приспати"
 
 msgid "Switch User"
 msgstr "Змінити користувача"

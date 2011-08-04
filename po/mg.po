@@ -1,12 +1,21 @@
 msgid "Hibernate"
-msgstr "Ampatorio"
+msgstr ""
 
 msgid "Lock Screen"
 msgstr "Gejao ny efijery"
 
+msgid "Log out"
+msgstr "Hivoaka"
+
 msgid "Restart"
 msgstr "Avereno alefa"
 
+msgid "Shut Down"
+msgstr "Vonoy"
+
 msgid "Suspend"
-msgstr "Ahatoy"
+msgstr "Aatoy"
+
+msgid "Switch User"
+msgstr "Mpanova"
 

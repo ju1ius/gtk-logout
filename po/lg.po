@@ -1,0 +1,6 @@
+msgid "Cancel"
+msgstr "Sazamu"
+
+msgid "Quit"
+msgstr "Mala"
+

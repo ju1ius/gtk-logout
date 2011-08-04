@@ -1,6 +1,27 @@
 msgid "Cancel"
 msgstr "Vazgeç"
 
+msgid "Quit"
+msgstr "Terk Et"
+
+msgid "Hibernate"
+msgstr ""
+
 msgid "Lock Screen"
 msgstr "Ekrannı Kilitle"
+
+msgid "Log out"
+msgstr "Tizilim"
+
+msgid "Restart"
+msgstr "Kene başlat"
+
+msgid "Shut Down"
+msgstr "Qapat"
+
+msgid "Suspend"
+msgstr "Sarqıt"
+
+msgid "Switch User"
+msgstr "Almaştırıcı"
 

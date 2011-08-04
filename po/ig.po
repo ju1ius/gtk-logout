@@ -1,6 +1,6 @@
-msgid "Cancel"
-msgstr ""
-
 msgid "Lock Screen"
-msgstr ""
+msgstr "Kpọchie Inyogo"
+
+msgid "Switch User"
+msgstr "Omembanye"
 

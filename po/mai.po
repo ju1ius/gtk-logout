@@ -1,12 +1,27 @@
 msgid "Cancel"
-msgstr "रद करू"
+msgstr "रद करू (C)"
+
+msgid "Quit"
+msgstr "बाहर (Q)"
 
 msgid "Hibernate"
-msgstr "हाइबरनेट करू"
+msgstr ""
 
 msgid "Lock Screen"
 msgstr "स्क्रीन पर ताला लगाबू"
 
+msgid "Log out"
+msgstr "लेआउट"
+
+msgid "Restart"
+msgstr "पुनः प्रारंभ करू"
+
+msgid "Shut Down"
+msgstr "बन्न करू"
+
 msgid "Suspend"
 msgstr "सस्पेंड करू"
+
+msgid "Switch User"
+msgstr "स्विचर"
 

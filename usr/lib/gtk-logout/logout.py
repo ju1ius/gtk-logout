@@ -30,12 +30,12 @@ class LogoutMenu(gtk.Window):
     dbus_actions =   ['restart', 'shutdown', 'suspend', 'hibernate']
     actions = {
         'shutdown': {
-            'command': 'gksu halt',
+            'command': 'shutdown -h now',
             'icon': 'system-shutdown',
-            'text': 'Power Off'
+            'text': 'Shut Down'
         },
         'restart': {
-            'command': 'gksu reboot',
+            'command': 'reboot',
             'icon': 'system-restart',
             'text': 'Restart'
         },
@@ -55,7 +55,7 @@ class LogoutMenu(gtk.Window):
             'text': 'Lock Screen'
         },
         'switch': {
-            'command': "gdm-control --switch-user",
+            'command': "gdmflexiserver",
             'icon':'system-logout',
             'text': 'Switch User'
         },
@@ -156,8 +156,9 @@ class LogoutMenu(gtk.Window):
 logo: distributor-logo.png
 usedbus: yes
 effects: yes
+force_pseudo_transparency: no
 opacity: 50
-buttons: suspend,logout,restart,shutdown
+buttons: lock,suspend,logout,restart,shutdown
 """)
         config_parser = ConfigParser.RawConfigParser()
         config_parser.readfp(defaults)
@@ -220,6 +221,7 @@ buttons: suspend,logout,restart,shutdown
         # ----- EFFECTS
 
         self.config['effects'] = config_parser.getboolean("Settings","effects")
+        self.config['force_pseudo_transparency'] = config_parser.getboolean("Settings","force_pseudo_transparency")
         opacity = config_parser.getfloat("Settings","opacity")
         if opacity > 100 or opacity <= 0:
             opacity = 75
@@ -247,7 +249,7 @@ buttons: suspend,logout,restart,shutdown
 
         if self.config['effects']:
             self.supports_alpha = False
-            if HAS_CAIRO:
+            if HAS_CAIRO and not self.config['force_pseudo_transparency']:
                 # Cairo is here so check for RGBA support
                 screen = gtk.gdk.screen_get_default()
                 rgba = screen.get_rgba_colormap()
@@ -417,6 +419,42 @@ buttons: suspend,logout,restart,shutdown
         )
         handler.setFormatter(logging.Formatter("[%(asctime)s] %(levelname)s: %(message)s'"))
         self.logger.addHandler(handler)
+
+    #---------------------#
+    # Pseudo transparency #
+    #---------------------#
+
+    def create_pil_background(self,opacity):
+        self.modify_bg(gtk.STATE_NORMAL, gtk.gdk.color_parse("black"))
+
+        # Create pseudo transparent background
+        w = gtk.gdk.get_default_root_window()
+        sz = w.get_size()
+        pb = gtk.gdk.Pixbuf(gtk.gdk.COLORSPACE_RGB,False,8,sz[0],sz[1])
+        pb = pb.get_from_drawable(w,w.get_colormap(),0,0,0,0,sz[0],sz[1])
+
+        # Convert Pixbuf to PIL Image
+        wh = (pb.get_width(),pb.get_height())
+        pilimg = PIL.Image.fromstring("RGB", wh, pb.get_pixels())
+        pilimg = pilimg.point(lambda p: (p * (100-opacity)) / 255 )
+
+        # "Convert" the PIL to Pixbuf via PixbufLoader
+        buf = StringIO.StringIO()
+        pilimg.save(buf, "ppm")
+        del pilimg
+        loader = gtk.gdk.PixbufLoader("pnm")
+        loader.write(buf.getvalue())
+        pixbuf = loader.get_pixbuf()
+
+        # Cleanup IO
+        buf.close()
+        loader.close()
+        
+        # Apply background
+        pixmap, mask = pixbuf.render_pixmap_and_mask()
+        self.realize()
+        self.window.set_back_pixmap(pixmap, False)
+
 
 
 

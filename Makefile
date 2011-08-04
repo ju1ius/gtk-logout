@@ -11,6 +11,7 @@ install:
 	install -m 0755 usr/lib/gtk-logout/* ${prefix}/lib/gtk-logout
 	install -d ${sysconfdir}/gtk-logout
 	install -m 0755 etc/gtk-logout/* ${sysconfdir}/gtk-logout
+	install -m 0755 usr/share/applications/gtk-logout.desktop ${prefix}/share/applications/gtk-logout.desktop
 	install -d ${prefix}/bin
 	ln -sf -T ${prefix}/lib/gtk-logout/logout.py ${prefix}/bin/gtk-logout
 

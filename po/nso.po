@@ -1,9 +1,27 @@
-msgid "Lock Screen"
-msgstr "_Notlela Sekirini"
+msgid "Cancel"
+msgstr "Khansela"
 
-msgid "Log Out"
-msgstr "E tšwa"
+msgid "Quit"
+msgstr "Tlogela"
+
+msgid "Hibernate"
+msgstr ""
+
+msgid "Lock Screen"
+msgstr "Notlela Sekirini"
+
+msgid "Log out"
+msgstr "E-tšwa"
 
 msgid "Restart"
 msgstr "Thoma ka leswa"
+
+msgid "Shut Down"
+msgstr "Ti ma"
+
+msgid "Suspend"
+msgstr "Fega"
+
+msgid "Switch User"
+msgstr "Sefetodi"
 

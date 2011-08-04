@@ -1,17 +1,23 @@
 msgid "Cancel"
 msgstr "Cancelar"
 
+msgid "Quit"
+msgstr "Sair"
+
+msgid "Hibernate"
+msgstr "Hibernar"
+
 msgid "Lock Screen"
-msgstr "Trancar o Ecrã"
+msgstr "Trancar Ecrã"
 
-msgid "Log Out"
-msgstr "Terminar Sessão"
-
-msgid "Power Off"
-msgstr "Desligar"
+msgid "Log out"
+msgstr "Terminar a sessão"
 
 msgid "Restart"
 msgstr "Reiniciar"
+
+msgid "Shut Down"
+msgstr "Desligar"
 
 msgid "Suspend"
 msgstr "Suspender"

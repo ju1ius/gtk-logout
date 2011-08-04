@@ -1,20 +1,23 @@
 msgid "Cancel"
 msgstr "Utzi"
 
+msgid "Quit"
+msgstr "Irten"
+
 msgid "Hibernate"
 msgstr "Hibernatu"
 
 msgid "Lock Screen"
 msgstr "Blokeatu pantaila"
 
-msgid "Log Out"
-msgstr "Amaitu saioa"
-
-msgid "Power Off"
-msgstr "Itzali"
+msgid "Log out"
+msgstr "Saio-amaiera"
 
 msgid "Restart"
 msgstr "Berrabiarazi"
+
+msgid "Shut Down"
+msgstr "Itzali"
 
 msgid "Suspend"
 msgstr "Eseki"

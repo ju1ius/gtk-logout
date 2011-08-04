@@ -1,3 +1,27 @@
+msgid "Cancel"
+msgstr "Бас тарту"
+
+msgid "Quit"
+msgstr "Шығу"
+
+msgid "Hibernate"
+msgstr ""
+
 msgid "Lock Screen"
 msgstr "Экранды блоктау"
+
+msgid "Log out"
+msgstr "Жайма"
+
+msgid "Restart"
+msgstr "Қайта қосу"
+
+msgid "Shut Down"
+msgstr "Сөндіру"
+
+msgid "Suspend"
+msgstr "Ұйықтату"
+
+msgid "Switch User"
+msgstr "Ауыстырғыш"
 

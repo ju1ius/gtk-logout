@@ -1,12 +1,27 @@
 msgid "Cancel"
 msgstr "Anuluj"
 
+msgid "Quit"
+msgstr "Vyjdzi"
+
 msgid "Hibernate"
-msgstr "Zhibernuj"
+msgstr ""
 
 msgid "Lock Screen"
 msgstr "Zablakuj ekran"
 
+msgid "Log out"
+msgstr "Vyjdzi"
+
+msgid "Restart"
+msgstr "Uruchom nanoŭ"
+
+msgid "Shut Down"
+msgstr "Vyklučy"
+
 msgid "Suspend"
 msgstr "Zaśni"
+
+msgid "Switch User"
+msgstr "Pieraklučy karystalnika"
 

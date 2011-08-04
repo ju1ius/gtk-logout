@@ -1,20 +1,26 @@
 msgid "Cancel"
-msgstr "ரத்துசெய்க"
+msgstr "ரத்து (C)"
+
+msgid "Quit"
+msgstr "வெளியேறு (Q)"
+
+msgid "Hibernate"
+msgstr "இடை உறக்கம்"
 
 msgid "Lock Screen"
-msgstr "திரையைப் பூட்டுக."
+msgstr "திரையை பூட்டுக"
 
-msgid "Log Out"
-msgstr "வெளியேறு"
-
-msgid "Power Off"
-msgstr "மின்சக்தி நிறுத்தம்"
+msgid "Log out"
+msgstr "வெளியேறுக"
 
 msgid "Restart"
-msgstr "மறு துவக்கம்"
+msgstr "மறுதுவக்கம்"
+
+msgid "Shut Down"
+msgstr "பணி நிறுத்தம்"
 
 msgid "Suspend"
-msgstr "இடைநிறுத்தம்."
+msgstr "இடைநிறுத்தம்"
 
 msgid "Switch User"
 msgstr "பயனர் மாற்று"

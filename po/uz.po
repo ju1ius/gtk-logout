@@ -1,6 +1,27 @@
 msgid "Cancel"
 msgstr "Bekor qilish"
 
+msgid "Quit"
+msgstr "Chiqish"
+
+msgid "Hibernate"
+msgstr ""
+
 msgid "Lock Screen"
 msgstr "Ekranni qulflash"
+
+msgid "Log out"
+msgstr "Seansni tugatish"
+
+msgid "Restart"
+msgstr "Oʻchirib-yoqish"
+
+msgid "Shut Down"
+msgstr "Oʻchirish"
+
+msgid "Suspend"
+msgstr "Kutish usuli"
+
+msgid "Switch User"
+msgstr "Tanlagich"
 

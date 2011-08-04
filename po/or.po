@@ -1,12 +1,27 @@
 msgid "Cancel"
-msgstr "ବାତିଲ କରନ୍ତୁ"
+msgstr "ବାତିଲ କରନ୍ତୁ (C)"
+
+msgid "Quit"
+msgstr "ବିଦାୟ ନିଅନ୍ତୁ (Q)"
 
 msgid "Hibernate"
-msgstr "ନିଭୃତ ଅବସ୍ଥାକୁ ନିଅନ୍ତୁ"
+msgstr ""
 
 msgid "Lock Screen"
 msgstr "ପରଦାକୁ ତାଲା ଦେଇ ରଖନ୍ତୁ"
 
+msgid "Log out"
+msgstr "ବିନ୍ଯାସ"
+
+msgid "Restart"
+msgstr "ପୂନଃପ୍ରାରମ୍ଭ କରନ୍ତୁ"
+
+msgid "Shut Down"
+msgstr "ବନ୍ଦ କରନ୍ତୁ"
+
 msgid "Suspend"
-msgstr "ସ୍ଥଗିତ କରନ୍ତୁ"
+msgstr "ନିଲମ୍ବନ କରନ୍ତୁ"
+
+msgid "Switch User"
+msgstr "ସ୍ଥାନାନ୍ତର ଚୟନକର୍ତ୍ତା"
 

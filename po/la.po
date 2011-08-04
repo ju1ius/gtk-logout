@@ -1,3 +1,6 @@
 msgid "Lock Screen"
 msgstr ""
 
+msgid "Switch User"
+msgstr ""
+

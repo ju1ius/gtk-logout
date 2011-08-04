@@ -1,20 +1,23 @@
 msgid "Cancel"
 msgstr "Peru"
 
+msgid "Quit"
+msgstr "Lopeta"
+
 msgid "Hibernate"
-msgstr "Lepotila"
+msgstr ""
 
 msgid "Lock Screen"
 msgstr "Lukitse näyttö"
 
-msgid "Log Out"
-msgstr "Kirjaudu ulos"
-
-msgid "Power Off"
-msgstr ""
+msgid "Log out"
+msgstr "Asettelu"
 
 msgid "Restart"
 msgstr "Käynnistä uudelleen"
+
+msgid "Shut Down"
+msgstr "Sammuta"
 
 msgid "Suspend"
 msgstr "Valmiustila"

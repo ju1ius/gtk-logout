@@ -1,12 +1,27 @@
 msgid "Cancel"
 msgstr "Откажи"
 
+msgid "Quit"
+msgstr "Крај"
+
 msgid "Hibernate"
-msgstr "Хибернирај"
+msgstr ""
 
 msgid "Lock Screen"
 msgstr "Заклучи екран"
 
+msgid "Log out"
+msgstr "Одјава"
+
+msgid "Restart"
+msgstr "Рестартирај"
+
+msgid "Shut Down"
+msgstr "Исклучи"
+
 msgid "Suspend"
 msgstr "Суспендирај"
+
+msgid "Switch User"
+msgstr "Скокач"
 

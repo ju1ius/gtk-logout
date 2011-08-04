@@ -1,17 +1,26 @@
 msgid "Cancel"
 msgstr "Ακύρωση"
 
+msgid "Quit"
+msgstr "Έξοδος"
+
+msgid "Hibernate"
+msgstr "Αδρανοποίηση"
+
 msgid "Lock Screen"
 msgstr "Κλείδωμα οθόνης"
 
-msgid "Log Out"
-msgstr "Αποσύνδεση..."
+msgid "Log out"
+msgstr "Αποσύνδεση"
 
 msgid "Restart"
-msgstr ""
+msgstr "Επανεκκίνηση"
+
+msgid "Shut Down"
+msgstr "Τερματισμός"
 
 msgid "Suspend"
-msgstr "Αναστολή..."
+msgstr "Αναστολή"
 
 msgid "Switch User"
 msgstr "Αλλαγή χρήστη"

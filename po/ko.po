@@ -1,20 +1,26 @@
 msgid "Cancel"
-msgstr "취소"
+msgstr "취소(C)"
+
+msgid "Quit"
+msgstr "끝내기(Q)"
+
+msgid "Hibernate"
+msgstr "최대 절전"
 
 msgid "Lock Screen"
 msgstr "화면 잠그기"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "로그아웃"
-
-msgid "Power Off"
-msgstr "컴퓨터 끄기"
 
 msgid "Restart"
 msgstr "다시 시작"
 
+msgid "Shut Down"
+msgstr "시스템 끄기"
+
 msgid "Suspend"
-msgstr "절전"
+msgstr "일시 중지"
 
 msgid "Switch User"
 msgstr "사용자 바꾸기"

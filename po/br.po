@@ -1,6 +1,27 @@
 msgid "Cancel"
 msgstr "Nullañ"
 
+msgid "Quit"
+msgstr "Kuitaat"
+
+msgid "Hibernate"
+msgstr ""
+
 msgid "Lock Screen"
 msgstr "Prennañ ar skramm"
+
+msgid "Log out"
+msgstr "Doare"
+
+msgid "Restart"
+msgstr "Adloc'hañ"
+
+msgid "Shut Down"
+msgstr "Lazhañ"
+
+msgid "Suspend"
+msgstr "Lakaat da gousket"
+
+msgid "Switch User"
+msgstr "Trec'haoler"
 

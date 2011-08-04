@@ -1,5 +1,8 @@
 msgid "Cancel"
-msgstr "रद्द करें"
+msgstr "रद्द करें (C)"
+
+msgid "Quit"
+msgstr "बाहर जाएँ (Q)"
 
 msgid "Hibernate"
 msgstr "सुप्तावस्था"
@@ -7,14 +10,14 @@ msgstr "सुप्तावस्था"
 msgid "Lock Screen"
 msgstr "स्क्रीन पर ताला लगाएँ"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "लॉग आउट"
 
-msgid "Power Off"
-msgstr "बिजली बंद"
-
 msgid "Restart"
-msgstr "फिर आरंभ करें"
+msgstr "पुनः आरंभ करें"
+
+msgid "Shut Down"
+msgstr "बंद करें"
 
 msgid "Suspend"
 msgstr "स्थगित"

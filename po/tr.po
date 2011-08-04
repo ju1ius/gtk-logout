@@ -1,20 +1,26 @@
 msgid "Cancel"
 msgstr "İptal"
 
+msgid "Quit"
+msgstr "Çık"
+
+msgid "Hibernate"
+msgstr "Derin Uyku"
+
 msgid "Lock Screen"
 msgstr "Ekranı Kilitle"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "Çıkış"
-
-msgid "Power Off"
-msgstr "Kapat"
 
 msgid "Restart"
 msgstr "Yeniden Başlat"
 
+msgid "Shut Down"
+msgstr "Kapat"
+
 msgid "Suspend"
-msgstr "Beklet"
+msgstr "Askıya Al"
 
 msgid "Switch User"
 msgstr "Kullanıcı Değiştir"

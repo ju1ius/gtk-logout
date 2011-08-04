@@ -1,21 +1,27 @@
 msgid "Cancel"
 msgstr "Nuligi"
 
+msgid "Quit"
+msgstr "Ĉesi"
+
+msgid "Hibernate"
+msgstr "Pasivumigi"
+
 msgid "Lock Screen"
-msgstr "Ŝlosi ekranon"
+msgstr "Ŝlosi ekranon"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "Elsaluti"
-
-msgid "Power Off"
-msgstr "Elŝalti"
 
 msgid "Restart"
 msgstr "Restarti"
 
+msgid "Shut Down"
+msgstr "Elŝalti"
+
 msgid "Suspend"
-msgstr "Paŭzigi"
+msgstr "Paŭzigi"
 
 msgid "Switch User"
-msgstr "Ŝanĝi uzanton"
+msgstr "Ŝaltilo"
 

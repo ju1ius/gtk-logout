@@ -1,3 +1,6 @@
-msgid "Restart"
-msgstr "Ýene Başla"
+msgid "Cancel"
+msgstr "Ybtal"
+
+msgid "Quit"
+msgstr "Çyk"
 

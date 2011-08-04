@@ -1,20 +1,26 @@
 msgid "Cancel"
 msgstr "Annuler"
 
+msgid "Quit"
+msgstr "Quitter"
+
+msgid "Hibernate"
+msgstr "Hiberner"
+
 msgid "Lock Screen"
 msgstr "Verrouiller l'écran"
 
-msgid "Log Out"
-msgstr "Fermer la session"
-
-msgid "Power Off"
-msgstr "Éteindre"
+msgid "Log out"
+msgstr "Se déconnecter"
 
 msgid "Restart"
 msgstr "Redémarrer"
 
+msgid "Shut Down"
+msgstr "Éteindre"
+
 msgid "Suspend"
-msgstr "Mettre en veille"
+msgstr "Suspendre"
 
 msgid "Switch User"
 msgstr "Changer d'utilisateur"

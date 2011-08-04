@@ -1,6 +1,6 @@
-msgid "Cancel"
-msgstr ""
-
 msgid "Lock Screen"
-msgstr ""
+msgstr "Kulle Fuskar Kwamfyuta"
+
+msgid "Switch User"
+msgstr "Mai Sauya"
 

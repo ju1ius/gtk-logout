@@ -1,20 +1,26 @@
 msgid "Cancel"
 msgstr "Annuleren"
 
-msgid "Lock Screen"
-msgstr "Scherm vergrendelen"
+msgid "Quit"
+msgstr "Afsluiten"
 
-msgid "Log Out"
+msgid "Hibernate"
+msgstr "Slaapstand"
+
+msgid "Lock Screen"
+msgstr "Beeldscherm vergrendelen"
+
+msgid "Log out"
 msgstr "Afmelden"
 
-msgid "Power Off"
+msgid "Restart"
+msgstr "Herstarten"
+
+msgid "Shut Down"
 msgstr "Uitschakelen"
 
-msgid "Restart"
-msgstr "Opnieuw opstarten"
-
 msgid "Suspend"
-msgstr "Slaapstand"
+msgstr "Pauzeren"
 
 msgid "Switch User"
 msgstr "Gebruiker wisselen"

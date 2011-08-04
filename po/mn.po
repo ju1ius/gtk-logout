@@ -1,6 +1,27 @@
+msgid "Cancel"
+msgstr "Хүчингүй"
+
+msgid "Quit"
+msgstr "Гарах"
+
+msgid "Hibernate"
+msgstr ""
+
 msgid "Lock Screen"
 msgstr "Дэлгэц түгжих"
 
+msgid "Log out"
+msgstr "Гарах"
+
 msgid "Restart"
-msgstr "Дахин эхлэх"
+msgstr "Шинээр эхлүүлэх"
+
+msgid "Shut Down"
+msgstr "Унтраах"
+
+msgid "Suspend"
+msgstr "Унтуулах"
+
+msgid "Switch User"
+msgstr "Хэрэглэгч сэлгэгч"
 

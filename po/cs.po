@@ -1,20 +1,26 @@
 msgid "Cancel"
 msgstr "Zrušit"
 
+msgid "Quit"
+msgstr "Ukončit"
+
+msgid "Hibernate"
+msgstr "Uspat na disk"
+
 msgid "Lock Screen"
-msgstr "Uzamknout obrazovku"
+msgstr "Zamknout obrazovku"
 
-msgid "Log Out"
-msgstr "Odhlásit"
-
-msgid "Power Off"
-msgstr "Vypnout"
+msgid "Log out"
+msgstr "Odhlásit se"
 
 msgid "Restart"
 msgstr "Restartovat"
 
+msgid "Shut Down"
+msgstr "Vypnout"
+
 msgid "Suspend"
-msgstr "Uspat do paměti"
+msgstr "Uspat"
 
 msgid "Switch User"
 msgstr "Přepnout uživatele"

@@ -1,3 +1,15 @@
 msgid "Lock Screen"
 msgstr "Cur ghlass er yn  fastee"
 
+msgid "Restart"
+msgstr "Goaill toshiaght reesht"
+
+msgid "Shut Down"
+msgstr "Cur magh"
+
+msgid "Suspend"
+msgstr "Scuirr veih"
+
+msgid "Switch User"
+msgstr "Caghlaadeyr"
+

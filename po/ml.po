@@ -1,12 +1,27 @@
 msgid "Cancel"
 msgstr "റദ്ദാക്കുക"
 
+msgid "Quit"
+msgstr "പുറത്ത് കടക്കുക"
+
 msgid "Hibernate"
-msgstr "ശിശിരനിദ്രയിലാക്കുക"
+msgstr ""
 
 msgid "Lock Screen"
 msgstr "സ്ക്രീന്‍ പൂട്ടുക"
 
+msgid "Log out"
+msgstr "വിന്യാസം"
+
+msgid "Restart"
+msgstr "വീണ്ടും തുടങ്ങുക"
+
+msgid "Shut Down"
+msgstr "അടച്ചു പൂട്ടുക"
+
 msgid "Suspend"
-msgstr "താല്‍ക്കാലികമായി നിര്‍ത്തുക"
+msgstr "മയങ്ങുക"
+
+msgid "Switch User"
+msgstr "സ്വിച്ചര്‍"
 

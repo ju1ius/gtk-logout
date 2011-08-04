@@ -1,6 +1,6 @@
-msgid "Cancel"
-msgstr ""
-
 msgid "Lock Screen"
-msgstr ""
+msgstr "Ti Ojú Kọ̀ǹpútà"
+
+msgid "Switch User"
+msgstr "Ìjánu-ìsún"
 

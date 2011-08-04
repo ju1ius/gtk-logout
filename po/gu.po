@@ -1,20 +1,26 @@
 msgid "Cancel"
-msgstr "રદ કરો"
+msgstr "રદ કરો (C)"
+
+msgid "Quit"
+msgstr "બહાર નીકળો (Q)"
+
+msgid "Hibernate"
+msgstr "હાઇબરનેટ"
 
 msgid "Lock Screen"
-msgstr "સ્ક્રીનને તાળુ મારો"
+msgstr "સ્ક્રીનને તાળું મારો"
 
-msgid "Log Out"
+msgid "Log out"
 msgstr "બહાર નીકળો"
 
-msgid "Power Off"
-msgstr "પાવર બંધ"
-
 msgid "Restart"
-msgstr "પુન:શરૂ કરો"
+msgstr "ફરીથી શરુ કરો"
+
+msgid "Shut Down"
+msgstr "બંધ કરો"
 
 msgid "Suspend"
-msgstr "અટકાવો"
+msgstr "સ્થગિત"
 
 msgid "Switch User"
 msgstr "વપરાશકર્તાને બદલો"

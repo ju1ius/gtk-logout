@@ -1,12 +1,27 @@
+msgid "Cancel"
+msgstr "අහෝසි (C)"
+
+msgid "Quit"
+msgstr "පිට වන්න (Q)"
+
 msgid "Hibernate"
-msgstr "ශිශිරතරණය"
+msgstr ""
 
 msgid "Lock Screen"
 msgstr "තිරය අගුලු දමන්න"
 
+msgid "Log out"
+msgstr "ඉවත් වීම"
+
 msgid "Restart"
-msgstr "නැවත-අරභමින්"
+msgstr "යළි ආරම්භ කරන්න"
+
+msgid "Shut Down"
+msgstr "වසා දමන්න"
 
 msgid "Suspend"
-msgstr "අත්හිටු වීම"
+msgstr "අත්හිටුවන්න"
+
+msgid "Switch User"
+msgstr "පරිශිලක හුවමාරුව (S)"
 
