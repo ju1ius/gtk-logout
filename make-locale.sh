@@ -1,17 +1,11 @@
 #! /bin/bash
 
-locale_dir="$1"
-if [[ ! -d "$1" ]]
-then
-  echo "$1 is not a directory !"
-  exit 1
-fi
-
 app_dir=$(dirname $0)
 po_dir=$app_dir/po
+locale_dir=$app_dir/usr/share/locale
 domain="gtk-logout"
 
-rm -rf "$app_dir/usr/share/locale"
+rm -rf $locale_dir/*
 
 find "$po_dir" -name *.po | while read po_file
 do

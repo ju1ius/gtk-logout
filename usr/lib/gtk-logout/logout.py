@@ -56,12 +56,12 @@ class LogoutMenu(gtk.Window):
         },
         'switch': {
             'command': "gdmflexiserver",
-            'icon':'system-logout',
+            'icon':'system-log-out',
             'text': 'Switch User'
         },
         'logout': {
             'command': "fluxbox-remote exit",
-            'icon':'system-logout',
+            'icon':'system-log-out',
             'text': 'Log Out'
         },
         'cancel': {
