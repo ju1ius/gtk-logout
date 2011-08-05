@@ -1,5 +1,5 @@
 package="gtk-logout"
-version="1.0-dev"
+version="0.1-dev"
 
 export prefix=/usr/local
 export sysconfdir=/etc

@@ -18,6 +18,7 @@ install: build
 	dh_testdir
 	dh_testroot
 	dh_clean
+	./make-locale.sh
 	dh_installdirs
 	dh_install usr/* usr
 	dh_install etc/* etc
