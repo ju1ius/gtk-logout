@@ -434,8 +434,13 @@ buttons: lock,suspend,logout,restart,shutdown
         pb = pb.get_from_drawable(w,w.get_colormap(),0,0,0,0,sz[0],sz[1])
 
         # Convert Pixbuf to PIL Image
-        wh = (pb.get_width(),pb.get_height())
-        pilimg = PIL.Image.fromstring("RGB", wh, pb.get_pixels())
+        dimensions = pb.get_width(), pb.get_height()
+        stride = pb.get_rowstride()
+        pixels = pb.get_pixels()
+        mode = pb.get_has_alpha() and "RGBA" or "RGB"
+        pilimg = PIL.Image.frombuffer(
+            mode, dimensions, pixels, "raw", mode, stride, 1
+        )
         pilimg = pilimg.point(lambda p: (p * (100-opacity)) / 255 )
 
         # "Convert" the PIL to Pixbuf via PixbufLoader
